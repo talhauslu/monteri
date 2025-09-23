@@ -4,7 +4,7 @@ export default function Contact() {
             <div className='w-full flex flex-col items-center gap-8 p-16'>
                 <h1 className='text-4xl font-bold'>Contact Us</h1>
                 <p className='max-w-2xl text-center'>
-                    We'd love to hear from you! Whether you have questions about our products, need assistance, or want to provide feedback, feel free to reach out. You can contact us via:</p>
+                    We&apos;d love to hear from you! Whether you have questions about our products, need assistance, or want to provide feedback, feel free to reach out. You can contact us via:</p>
                 <div className="flex flex-row justify-center w-auto gap-6 flex-wrap whitespace-nowrap">
                     <a href="tel:+905425629933" className='flex flex-col items-center gap-4 flex-1'>
                         <div className='flex justify-center items-center text-center rounded-full bg-black text-white shadow-lg hover:scale-110 transition-transform duration-200 h-25 w-25'>

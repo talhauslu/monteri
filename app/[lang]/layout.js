@@ -7,6 +7,7 @@ import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Header2 from '@/components/Header2';
 import LanguagePicker from '@/components/LanguagePicker';
+import Image from 'next/image';
 
 export default async function RootLayout({ children, params }) {
   const { lang } = await params;
@@ -40,9 +41,11 @@ export default async function RootLayout({ children, params }) {
               rel="noopener noreferrer"
               className="block"
             >
-              <img
+              <Image
                 src="/images/whatsapp.png"
                 alt="WhatsApp"
+                width={48}  
+                height={48}
                 className="w-12 h-12 rounded-full shadow-lg hover:scale-110 transition-transform duration-200"
               />
             </a>

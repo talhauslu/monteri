@@ -54,7 +54,7 @@ export default function Header() {
       </div>
 
       {/* Mobile menu, hidden by default, slide in with transition */}
-      <div className={`lg:hidden absolute w-full bg-white text-green-950 z-10 overflow-hidden transition-max-height duration-300 ease-in-out ${isMenuOpen ? 'max-h-96' : 'max-h-0'}`}>
+      <div className={`lg:hidden absolute w-full bg-white text-green-950 z-10 overflow-hidden transition-max-height duration-1000 ease-in-out ${isMenuOpen ? 'max-h-96' : 'max-h-0'}`}>
         <ul className="flex flex-col text-center font-bold space-y-4 pt-4 pb-4">
           <li>
             <Link href="/" className="hover:underline block" onClick={toggleMenu}>Home</Link>

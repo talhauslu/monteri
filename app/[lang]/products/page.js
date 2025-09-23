@@ -5,7 +5,7 @@ export default function Products() {
         <div className="w-full flex justify-center items-center p-4 bg-gray-50">
             <div className="w-full max-w-7xl mx-auto">
                 <div
-                    className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4 bg-white transition-all duration-700 opacity-0 animate-fadeIn overflow-x-auto"
+                    className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4 bg-white transition-all duration-1000 opacity-0 animate-fadeIn overflow-x-auto"
                 >
                     <ProductCard img="0205202568154a16bca0a-1200x921.jpeg" name="Product Name" />
                     <ProductCard img="0205202568154aa565a5d.jpeg" name="Product Name" />
