@@ -1,50 +1,52 @@
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 export default function About() {
+    const t = useTranslations("about");
 
     const missionPoints = [
-        { icon: "diamond", title: "Quality", desc: "Using only the finest materials and time-honored techniques." },
-        { icon: "lightbulb-o", title: "Innovation", desc: "Blending classic styles with contemporary needs." },
-        { icon: "leaf", title: "Sustainability", desc: "Building pieces that last, reducing waste and promoting responsible sourcing." },
-        { icon: "star", title: "Customer Satisfaction", desc: "Ensuring every interaction and every product exceeds expectations." }
+        { icon: "diamond", title: t('mission_section.values.quality.title'), desc: t('mission_section.values.quality.description') },
+        { icon: "lightbulb-o", title: t('mission_section.values.innovation.title'), desc: t('mission_section.values.innovation.description') },
+        { icon: "leaf", title: t('mission_section.values.sustainability.title'), desc: t('mission_section.values.sustainability.description') },
+        { icon: "star", title: t('mission_section.values.customer_focus.title'), desc: t('mission_section.values.customer_focus.description') }
     ];
 
     const products = [
-        { name: "Tables", desc: "Cozy and inviting focal points for any home" },
-        { name: "Service Trolleys", desc: "Perfect for entertaining and everyday convenience" },
-        { name: "Service Coffee Tables", desc: "Elegant and practical centerpieces for your living space" },
-        { name: "Zigon Coffee Tables", desc: "Unique designs that make a statement" },
-        { name: "Side Tables", desc: "Versatile and stylish additions to your decor" }
+        { name: t('products_section.categories.tables.title'), desc: t('products_section.categories.tables.description') },
+        { name: t('products_section.categories.coffee_tables.title'), desc: t('products_section.categories.coffee_tables.description') },
+        { name: t('products_section.categories.zigon_tables.title'), desc: t('products_section.categories.zigon_tables.description') },
+        { name: t('products_section.categories.side_tables.title'), desc: t('products_section.categories.side_tables.description') },
+        { name: t('products_section.categories.service_trolleys.title'), desc: t('products_section.categories.service_trolleys.description') }
     ];
 
     const testimonials = [
         {
-            text: "The service trolley I purchased from Monteri is not only beautiful but incredibly functional. It's become the centerpiece of my dining room!",
+            text: t('testimonials_section.feedback1'),
             author: "Stefan K.",
             location: "Frankfurt, Germany"
         },
         {
-            text: "I was looking for a unique coffee table, and the Zigon design exceeded all my expectations. The craftsmanship is outstanding!",
+            text: t('testimonials_section.feedback2'),
             author: "Metin U.",
             location: "Bursa, Turkey"
         },
         {
-            text: "I recently purchased a side table and it's the perfect addition to my living room. Beautifully crafted and very sturdy!",
+            text: t('testimonials_section.feedback3'),
             author: "Oğuz P.",
             location: "Istanbul, Turkey"
         },
         {
-            text: "The service coffee table is both elegant and practical. It's a beautiful centerpiece that also offers great functionality.",
+            text: t('testimonials_section.feedback4'),
             author: "Nur K.",
             location: "Istanbul, Turkey"
         },
         {
-            text: "I'm impressed with the quality of the materials used in the service trolley. It's clear that Monteri values craftsmanship.",
+            text: t('testimonials_section.feedback5'),
             author: "Ana M.",
             location: "Tbilisi, Georgia"
         },
         {
-            text: "The Zigon coffee tables are a conversation starter! They add a unique touch to my home decor and are very well-made.",
+            text: t('testimonials_section.feedback6'),
             author: "Batuhan M.",
             location: "Edirne, Turkey"
         }
@@ -56,9 +58,9 @@ export default function About() {
                 {/* Hero Section */}
                 <div className="bg-gradient-to-r from-emerald-900 to-green-900 text-white py-16">
                     <div className="max-w-6xl mx-auto px-4 text-center">
-                        <h1 className="text-5xl md:text-6xl font-extrabold mb-6">About Us</h1>
+                        <h1 className="text-5xl md:text-6xl font-extrabold mb-6">{t('title')}</h1>
                         <p className="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto">
-                            Crafting furniture that transforms houses into homes, one piece at a time
+                            {t('subtitle')}
                         </p>
                     </div>
                 </div>
@@ -71,11 +73,11 @@ export default function About() {
                         </div>
                         <blockquote className="relative">
                             <p className="text-2xl md:text-3xl font-light text-gray-700 italic text-center leading-relaxed mb-6">
-                                &quot;Furniture is more than wood and metal—it&apos;s the heart of a home, the silent witness to life&apos;s moments.&quot;
+                                {t('quote_section.quote')}
                             </p>
                             <footer className="text-center">
                                 <span className="text-lg font-semibold text-green-600">— Bahadır Daylan</span>
-                                <p className="text-sm text-gray-500 mt-1">Founder & Master Craftsman</p>
+                                <p className="text-sm text-gray-500 mt-1">{t('quote_section.role')}</p>
                             </footer>
                         </blockquote>
                     </div>
@@ -85,41 +87,35 @@ export default function About() {
                         <div className="grid md:grid-cols-2 gap-12 items-center">
                             <div>
                                 <div className="flex items-center mb-6">
-                                    <h2 className="text-4xl font-bold text-gray-800">Our Story</h2>
+                                    <h2 className="text-4xl font-bold text-gray-800">{t('story_section.title')}</h2>
                                 </div>
-                                <h3 className="text-2xl font-semibold text-green-600 mb-4">A Legacy of Craftsmanship</h3>
+                                <h3 className="text-2xl font-semibold text-green-600 mb-4">{t('story_section.subtitle')}</h3>
                                 <div className="space-y-4 text-gray-700 leading-relaxed">
-                                    <p>
-                                        Bahadır&apos;s passion for furniture design began in a small workshop, where curiosity and creativity first took shape. Inspired by the timeless beauty of handcrafted pieces and the stories they hold, he set out to create furniture that marries form and function.
-                                    </p>
-                                    <p>
-                                        With a background in woodworking, Bahadır honed his skills, learning from master craftsmen and experimenting with innovative techniques. Each piece is a testament to his dedication to excellence.
-                                    </p>
-                                    <p>
-                                        Today, Monteri stands as a symbol of quality, creativity, and the enduring value of handmade furniture. From the first sketch to the final polish, every item is crafted with care.
-                                    </p>
+                                    <p>{t('story_section.description_paragraph1')}</p>
+                                    <p>{t('story_section.description_paragraph2')}</p>
+                                    <p>{t('story_section.description_paragraph3')}</p>
                                 </div>
                             </div>
                             <div className="bg-gradient-to-br from-green-100 to-emerald-100 rounded-2xl p-8">
                                 <div className="text-center">
                                     <i className="fa fa-globe fa-5x text-green-600 mb-4" aria-hidden="true"></i>
-                                    <h4 className="text-xl font-semibold text-gray-800 mb-4">From Workshop to World</h4>
+                                    <h4 className="text-xl font-semibold text-gray-800 mb-4">{t('story_section.side_title')}</h4>
                                     <div className="grid grid-cols-2 gap-4 text-center">
                                         <div className="bg-white rounded-lg p-4">
                                             <div className="text-3xl font-bold text-green-600">10+</div>
-                                            <div className="text-sm text-gray-600">Years Experience</div>
+                                            <div className="text-sm text-gray-600">{t('story_section.side_stats.years_experience')}</div>
                                         </div>
                                         <div className="bg-white rounded-lg p-4">
                                             <div className="text-3xl font-bold text-green-600">100+</div>
-                                            <div className="text-sm text-gray-600">Happy Homes</div>
+                                            <div className="text-sm text-gray-600">{t('story_section.side_stats.happy_homes')}</div>
                                         </div>
                                         <div className="bg-white rounded-lg p-4">
                                             <div className="text-3xl font-bold text-green-600">5+</div>
-                                            <div className="text-sm text-gray-600">Countries</div>
+                                            <div className="text-sm text-gray-600">{t('story_section.side_stats.countries')}</div>
                                         </div>
                                         <div className="bg-white rounded-lg p-4">
                                             <div className="text-3xl font-bold text-green-600">100%</div>
-                                            <div className="text-sm text-gray-600">Handcrafted</div>
+                                            <div className="text-sm text-gray-600">{t('story_section.side_stats.handcrafted')}</div>
                                         </div>
                                     </div>
                                 </div>
@@ -132,10 +128,10 @@ export default function About() {
                         <div className="text-center mb-12">
                             <div className="flex items-center justify-center mb-4">
                                 {/* <Globe className="w-8 h-8 text-green-600 mr-3" /> */}
-                                <h2 className="text-4xl font-bold text-gray-800">Our Mission</h2>
+                                <h2 className="text-4xl font-bold text-gray-800">{t('mission_section.title')}</h2>
                             </div>
                             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                                At Monteri, our mission is to create furniture that inspires and endures. We believe in the power of thoughtful design, the beauty of natural materials, and the importance of craftsmanship.
+                                {t('mission_section.mission_statement')}
                             </p>
                         </div>
 
@@ -156,8 +152,8 @@ export default function About() {
                     <section className="mb-16">
                         <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
                             <div className="text-center mb-10">
-                                <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Products</h2>
-                                <p className="text-xl text-gray-600">Each piece in our collection is designed to enhance your living experience</p>
+                                <h2 className="text-4xl font-bold text-gray-800 mb-4">{t('products_section.title')}</h2>
+                                <p className="text-xl text-gray-600">{t('products_section.subtitle')}</p>
                             </div>
 
                             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -183,25 +179,25 @@ export default function About() {
                     <section className="mb-16">
                         <div className="bg-gradient-to-r from-green-800 to-green-900 rounded-2xl p-8 md:p-12 text-white">
                             <div className="text-center mb-10">
-                                <h2 className="text-4xl font-bold mb-4">Our Commitment</h2>
-                                <p className="text-xl opacity-90">We implement total quality management and prioritize customer satisfaction in everything we do</p>
+                                <h2 className="text-4xl font-bold mb-4">{t('commitment_section.title')}</h2>
+                                <p className="text-xl opacity-90">{t('commitment_section.subtitle')}</p>
                             </div>
 
                             <div className="grid md:grid-cols-3 gap-8">
                                 <div className="text-center">
                                     <i className="fa fa-shield fa-3x text-green-400 mx-auto mb-4" aria-hidden="true"></i>
-                                    <h3 className="text-xl font-semibold mb-2">Quality Assurance</h3>
-                                    <p className="opacity-90">Every piece undergoes rigorous quality control before leaving our workshop</p>
+                                    <h3 className="text-xl font-semibold mb-2">{t('commitment_section.points.quality_assurance.title')}</h3>
+                                    <p className="opacity-90">{t('commitment_section.points.quality_assurance.description')}</p>
                                 </div>
                                 <div className="text-center">
                                     <i className="fa fa-globe fa-3x text-green-400 mx-auto mb-4" aria-hidden="true"></i>
-                                    <h3 className="text-xl font-semibold mb-2">Global Reach</h3>
-                                    <p className="opacity-90">Wholesale and retail sales with worldwide shipping capabilities</p>
+                                    <h3 className="text-xl font-semibold mb-2">{t('commitment_section.points.global_reach.title')}</h3>
+                                    <p className="opacity-90">{t('commitment_section.points.global_reach.description')}</p>
                                 </div>
                                 <div className="text-center">
                                     <i className="fa fa-heart fa-3x text-green-400 mx-auto mb-4" aria-hidden="true"></i>
-                                    <h3 className="text-xl font-semibold mb-2">Customer First</h3>
-                                    <p className="opacity-90">Your satisfaction is our priority, from first contact to final delivery</p>
+                                    <h3 className="text-xl font-semibold mb-2">{t('commitment_section.points.customer_first.title')}</h3>
+                                    <p className="opacity-90">{t('commitment_section.points.customer_first.description')}</p>
                                 </div>
                             </div>
                         </div>
@@ -210,8 +206,8 @@ export default function About() {
                     {/* Testimonials Section */}
                     <section>
                         <div className="text-center mb-12">
-                            <h2 className="text-4xl font-bold text-gray-800 mb-4">What Our Customers Say</h2>
-                            <p className="text-xl text-gray-600">Real stories from satisfied customers around the world</p>
+                            <h2 className="text-4xl font-bold text-gray-800 mb-4">{t('testimonials_section.title')}</h2>
+                            <p className="text-xl text-gray-600">{t('testimonials_section.subtitle')}</p>
                         </div>
 
                         <div className="grid md:grid-cols-3 gap-8">
@@ -237,17 +233,17 @@ export default function About() {
                     {/* Call to Action */}
                     <div className="text-center mt-16">
                         <div className="bg-gradient-to-r from-green-900 to-emerald-900 rounded-2xl p-8 text-white">
-                            <h3 className="text-3xl font-bold mb-4">Ready to Transform Your Space?</h3>
-                            <p className="text-xl mb-6 opacity-90">Discover our complete collection and bring timeless craftsmanship to your home</p>
+                            <h3 className="text-3xl font-bold mb-4">{t('call_to_action_section.title')}</h3>
+                            <p className="text-xl mb-6 opacity-90">{t('call_to_action_section.subtitle')}</p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Link href="/products">
                                     <button className="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                                        View Products
+                                        {t('call_to_action_section.view_products_button')}
                                     </button>
                                 </Link>
                                 <Link href="/contact">
                                     <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors">
-                                        Contact Us
+                                        {t('call_to_action_section.contact_button')}
                                     </button>
                                 </Link>
                             </div>

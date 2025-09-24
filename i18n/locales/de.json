@@ -1,7 +1,253 @@
 {
   "header": {
-    "title": "Handmade Elegance but in German",
-    "subtitle": "Add character to your home with custom furniture but in German",
-    "cta": "Explore Collection but in German"
+    "sublogo": "✨ Erstklassige Wohnräume",
+    "nav": {
+      "home": "Startseite",
+      "products": "Produkte",
+      "about": "Über uns",
+      "contact": "Kontakt"
+    }
+  },
+  "home": {
+    "main_value_section": {
+      "title_first_part": "Meisterhaft gefertigt,",
+      "title_second_part": " weltweit geliefert",
+      "subtitle": "Von unserer Werkstatt zu Ihrem Zuhause entwerfen wir exklusive Möbelstücke, die zeitlose Handwerkskunst mit moderner Funktionalität verbinden. Jedes Stück erzählt eine Geschichte von Hingabe, Qualität und künstlerischer Vision.",
+      "values": {
+        "craftsmanship": {
+          "title": "Meisterhandwerk",
+          "description": "Ausgewählte Materialien treffen in jedem Stück auf traditionelle Techniken"
+        },
+        "shipping": {
+          "title": "Globaler Versand",
+          "description": "Sichere und zuverlässige Lieferung bis an Ihre Haustür – weltweit"
+        },
+        "quality": {
+          "title": "Höchste Qualität",
+          "description": "Nur die besten Materialien und größte Sorgfalt bis ins Detail"
+        }
+      }
+    },
+    "featured_products_section": {
+      "title": "Unsere Exklusive Kollektion",
+      "subtitle": "Entdecken Sie Möbelstücke, die Räume verwandeln und Erlebnisse bereichern",
+      "categories": {
+        "service_trolleys": {
+          "title": "Servierwagen",
+          "description": "Perfekt, um Gäste stilvoll und bequem zu bewirten"
+        },
+        "coffee_tables": {
+          "title": "Couchtische",
+          "description": "Elegante Mittelpunkte, die Räume verbinden"
+        },
+        "tables": {
+          "title": "Tische",
+          "description": "Vielseitige Designs für Ess- und Arbeitsbereiche"
+        },
+        "side_tables": {
+          "title": "Beistelltische",
+          "description": "Vielseitige Akzentstücke mit elegantem Design"
+        },
+        "zigon_tables": {
+          "title": "Satztische",
+          "description": "Einzigartige geometrische Designs mit Charakter"
+        }
+      },
+      "view_all_button": "Alle Produkte ansehen"
+    },
+    "why_choose_us_section": {
+      "title": "Warum Unsere Möbel?",
+      "points": {
+        "check1": "Hochwertige Materialien aus nachhaltigen Quellen",
+        "check2": "Meisterhafte Handwerkskunst mit jahrzehntelanger Erfahrung",
+        "check3": "Individuelle Designs, die zu Ihrem Raum und Stil passen",
+        "check4": "Weltweiter Versand mit sicherer Verpackung",
+        "check5": "Umfassende Garantie und After-Sales-Support",
+        "check6": "Großhandels- und Einzelhandelsoptionen verfügbar"
+      },
+      "side_title": "Total Quality Management",
+      "side_description": "Wir führen strenge Qualitätskontrollen in jeder Produktionsphase durch, damit jedes Stück unseren hohen Standards entspricht, bevor es Ihr Zuhause erreicht.",
+      "side_stats": {
+        "quality_tested": "Qualitätsgeprüft",
+        "countries_served": "Belieferte Länder"
+      }
+    },
+    "shipping_services_section": {
+      "title": "Nahtlose Erfahrung, Globale Reichweite",
+      "description": "Von der Bestellung bis zur Lieferung – wir sorgen für eine außergewöhnliche Erfahrung",
+      "services": {
+        "worldwide_shipping": {
+          "title": "Kostenloser Weltweiter Versand",
+          "description": "Kostenloser Versand bei allen Bestellungen mit professioneller Verpackung"
+        },
+        "secure_packaging": {
+          "title": "Großhandel & Einzelhandel",
+          "description": "Flexible Einkaufsmöglichkeiten für Unternehmen und Privatkunden"
+        },
+        "tracking": {
+          "title": "Kundenzufriedenheit",
+          "description": "Ein engagiertes Support-Team sorgt für Ihre volle Zufriedenheit"
+        },
+        "customer_support": {
+          "title": "Nachhaltige Praktiken",
+          "description": "Umweltfreundliche Materialien und verantwortungsvolle Beschaffung für langlebige Qualität"
+        }
+      }
+    },
+    "testimonials_section": {
+      "title": "Was Unsere Kunden Sagen",
+      "feedback": "Ich suchte nach einem besonderen Couchtisch, und das Satztisch-Design hat meine Erwartungen übertroffen. Die Handwerkskunst ist hervorragend!",
+      "read_more_button": "Mehr Bewertungen lesen"
+    },
+    "call_to_action_section": {
+      "title": "Bereit, Ihren Raum zu verwandeln?",
+      "subtitle": "Entdecken Sie unsere gesamte Kollektion und finden Sie die perfekten Stücke für Ihr Zuhause",
+      "browse_button": "Kollektion Durchstöbern",
+      "contact_button": "Kontaktieren Sie uns"
+    }
+  },
+  "products": {
+    "product1": "Produkt 1",
+    "product2": "Produkt 2",
+    "product3": "Produkt 3",
+    "product4": "Produkt 4",
+    "product5": "Produkt 5",
+    "product6": "Produkt 6",
+    "product7": "Produkt 7",
+    "product8": "Produkt 8",
+    "product9": "Produkt 9",
+    "product10": "Produkt 10",
+    "product11": "Produkt 11",
+    "product12": "Produkt 12",
+    "product13": "Produkt 13",
+    "product14": "Produkt 14",
+    "product15": "Produkt 15",
+    "product16": "Produkt 16",
+    "product17": "Produkt 17",
+    "product18": "Produkt 18",
+    "product19": "Produkt 19",
+    "product20": "Produkt 20"
+  },
+  "about": {
+    "title": "Über uns",
+    "subtitle": "Mit unseren Möbeln verwandeln wir Häuser Stück für Stück in ein Zuhause",
+    "quote_section": {
+      "quote": "Möbel sind mehr als Holz und Metall — sie sind das Herz des Hauses und stille Zeugen der Lebensmomente.",
+      "role": "Gründer & Meisterhandwerker"
+    },
+    "story_section": {
+      "title": "Unsere Geschichte",
+      "subtitle": "Von bescheidenen Anfängen zur globalen Reichweite",
+      "description_paragraph1": "Bahadirs Leidenschaft für Möbeldesign begann in einer kleinen Werkstatt. Inspiriert von der zeitlosen Schönheit handgefertigter Stücke und den Geschichten, die sie tragen, begann er Möbel zu entwerfen, die Form und Funktion vereinen.",
+      "description_paragraph2": "Mit seinem Hintergrund in der Holzverarbeitung verfeinerte Bahadir seine Fähigkeiten, lernte von Meisterhandwerkern und experimentierte mit innovativen Techniken. Jedes Stück ist ein Beweis für sein Streben nach Perfektion.",
+      "description_paragraph3": "Heute steht Monteri als Symbol für Qualität, Kreativität und den bleibenden Wert handgefertigter Möbel. Vom ersten Entwurf bis zur letzten Politur wird jedes Stück mit Sorgfalt gefertigt.",
+      "side_title": "Von der Werkstatt in die Welt",
+      "side_stats": {
+        "years_experience": "Jahre Erfahrung",
+        "happy_homes": "Glückliche Haushalte",
+        "countries": "Länder",
+        "handcrafted": "Handgefertigt"
+      }
+    },
+    "mission_section": {
+      "title": "Unsere Mission",
+      "mission_statement": "Bei Monteri ist es unsere Mission, Möbel zu schaffen, die inspirieren und Bestand haben. Wir glauben an die Kraft durchdachten Designs, die Schönheit natürlicher Materialien und die Bedeutung handwerklicher Qualität.",
+      "values": {
+        "quality": {
+          "title": "Qualität",
+          "description": "Wir verwenden nur die besten Materialien und sorgfältige Handwerkskunst, um höchste Standards zu gewährleisten."
+        },
+        "innovation": {
+          "title": "Innovatives Design",
+          "description": "Unsere Designs verbinden klassische Techniken mit moderner Ästhetik, um funktionale Kunstwerke für Ihr Zuhause zu schaffen."
+        },
+        "sustainability": {
+          "title": "Nachhaltigkeit",
+          "description": "Wir fertigen langlebige Stücke, reduzieren Abfälle und fördern verantwortungsvolle Beschaffung."
+        },
+        "customer_focus": {
+          "title": "Kundenzufriedenheit",
+          "description": "Wir möchten bei jeder Interaktion und jedem Produkt die Erwartungen übertreffen."
+        }
+      }
+    },
+    "products_section": {
+      "title": "Unsere Produkte",
+      "subtitle": "Jedes Stück unserer Kollektion ist darauf ausgelegt, Ihr Wohnerlebnis zu bereichern",
+      "categories": {
+        "tables": {
+          "title": "Tische",
+          "description": "Warme und einladende Mittelpunkte für jedes Zuhause"
+        },
+        "service_trolleys": {
+          "title": "Servierwagen",
+          "description": "Elegant und praktisch für den Alltag und Gästeempfang"
+        },
+        "coffee_tables": {
+          "title": "Couchtische",
+          "description": "Elegante und funktionale Akzente für Ihr Zuhause"
+        },
+        "zigon_tables": {
+          "title": "Satztische",
+          "description": "Einzigartige Designs, die Akzente setzen"
+        },
+        "side_tables": {
+          "title": "Beistelltische",
+          "description": "Vielseitige Stücke, die Ihre Einrichtung bereichern"
+        }
+      }
+    },
+    "commitment_section": {
+      "title": "Unser Versprechen",
+      "subtitle": "Wir setzen auf Total Quality Management und stellen die Kundenzufriedenheit an erste Stelle",
+      "points": {
+        "quality_assurance": {
+          "title": "Qualitätssicherung",
+          "description": "Jedes Stück durchläuft strenge Qualitätskontrollen, um unseren hohen Standards gerecht zu werden."
+        },
+        "global_reach": {
+          "title": "Globale Reichweite",
+          "description": "Groß- und Einzelhandel mit weltweiten Versandmöglichkeiten"
+        },
+        "customer_first": {
+          "title": "Kunde an erster Stelle",
+          "description": "Von der ersten Kontaktaufnahme bis zur Lieferung garantieren wir Ihre Zufriedenheit"
+        }
+      }
+    },
+    "testimonials_section": {
+      "title": "Was Unsere Kunden Sagen",
+      "subtitle": "Echte Geschichten zufriedener Kunden weltweit",
+      "feedback1": "Der Servierwagen, den ich bei Monteri gekauft habe, ist nicht nur schön, sondern auch unglaublich praktisch. Er ist zum Mittelpunkt meines Esszimmers geworden!",
+      "feedback2": "Ich suchte nach einem besonderen Couchtisch, und das Satztisch-Design hat meine Erwartungen übertroffen. Die Handwerkskunst ist hervorragend!",
+      "feedback3": "Ich habe kürzlich einen Beistelltisch gekauft und er passt perfekt in mein Wohnzimmer. Wunderschön verarbeitet und sehr stabil!",
+      "feedback4": "Der Couchtisch ist sowohl elegant als auch praktisch. Ein schönes Zentrum, das gleichzeitig Funktionalität bietet.",
+      "feedback5": "Ich bin beeindruckt von der Qualität der im Servierwagen verwendeten Materialien. Es ist deutlich, dass Monteri Wert auf Handwerkskunst legt.",
+      "feedback6": "Die Satztische sind ein echtes Gesprächsthema! Sie verleihen meiner Einrichtung eine einzigartige Note und sind sehr hochwertig verarbeitet."
+    },
+    "call_to_action_section": {
+      "title": "Bereit, Ihren Raum zu verwandeln?",
+      "subtitle": "Entdecken Sie unsere gesamte Kollektion und bringen Sie zeitlose Handwerkskunst in Ihr Zuhause",
+      "view_products_button": "Produkte ansehen",
+      "contact_button": "Kontaktieren Sie uns"
+    }
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Wir würden uns freuen, von Ihnen zu hören! Ob Sie Fragen zu unseren Produkten haben, Unterstützung benötigen oder Feedback geben möchten – kontaktieren Sie uns gerne:",
+    "options": {
+      "phone": "Telefon",
+      "email": "E-Mail"
+    },
+    "form": {
+      "title": "Kontakt aufnehmen",
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit_button": "Nachricht senden"
+    },
+    "address_section": {
+      "title": "Unsere Adresse"
+    }
   }
 }

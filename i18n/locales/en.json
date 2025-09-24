@@ -1,7 +1,253 @@
 {
   "header": {
-    "title": "Handmade Elegance",
-    "subtitle": "Add character to your home with custom furniture",
-    "cta": "Explore Collection"
+    "sublogo": "✨ Prime Living",
+    "nav": {
+      "home": "Home",
+      "products": "Products",
+      "about": "About Us",
+      "contact": "Contact"
+    }
+  },
+  "home": {
+    "main_value_section": {
+      "title_first_part": "Crafted Excellence,",
+      "title_second_part": " Delivered Worldwide",
+      "subtitle": "From our workshop to your home, we create exceptional furniture pieces that combine timeless craftsmanship with modern functionality. Every piece tells a story of dedication, quality, and artistic vision.",
+      "values": {
+        "craftsmanship": {
+          "title": "Master Craftsmanship",
+          "description": "Hand-selected materials meet time-honored techniques in every piece we create"
+        },
+        "shipping": {
+          "title": "Global Shipping",
+          "description": "Safe, secure delivery to your doorstep anywhere in the world"
+        },
+        "quality": {
+          "title": "Premium Quality",
+          "description": "Only the finest materials and meticulous attention to every detail"
+        }
+      }
+    },
+    "featured_products_section": {
+      "title": "Our Signature Collection",
+      "subtitle": "Discover furniture pieces that transform spaces and elevate experiences",
+      "categories": {
+        "service_trolleys": {
+          "title": "Service Trolleys",
+          "description": "Perfect for entertaining with style and convenience"
+        },
+        "coffee_tables": {
+          "title": "Coffee Tables",
+          "description": "Elegant centerpieces that bring rooms together"
+        },
+        "tables": {
+          "title": "Tables",
+          "description": "Versatile designs for every dining and workspace"
+        },
+        "side_tables": {
+          "title": "Side Tables",
+          "description": "Versatile accent pieces with sophisticated design"
+        },
+        "zigon_tables": {
+          "title": "Zigon Tables",
+          "description": "Unique geometric designs that make statements"
+        }
+      },
+      "view_all_button": "View All Products"
+    },
+    "why_choose_us_section": {
+      "title": "Why Choose Our Furniture?",
+      "points": {
+        "check1": "Premium materials sourced from sustainable suppliers",
+        "check2": "Expert craftsmanship with decades of experience",
+        "check3": "Custom designs tailored to your space and style",
+        "check4": "Worldwide shipping with secure packaging",
+        "check5": "Comprehensive warranty and after-sales support",
+        "check6": "Wholesale and retail options available"
+      },
+      "side_title": "Total Quality Management",
+      "side_description": "We implement rigorous quality control at every stage of production, ensuring that each piece meets our exacting standards before it reaches your home.",
+      "side_stats": {
+        "quality_tested": "Quality Tested",
+        "countries_served": "Countries Served"
+      }
+    },
+    "shipping_services_section": {
+      "title": "Seamless Experience, Global Reach",
+      "description": "From order to delivery, we ensure your journey with us is exceptional",
+      "services": {
+        "worldwide_shipping": {
+          "title": "Free Worldwide Shipping",
+          "description": "Complimentary shipping on all orders with professional packaging"
+        },
+        "secure_packaging": {
+          "title": "Wholesale & Retail",
+          "description": "Flexible purchasing options for businesses and individual customers"
+        },
+        "tracking": {
+          "title": "Customer Satisfaction",
+          "description": "Dedicated support team ensuring your complete satisfaction"
+        },
+        "customer_support": {
+          "title": "Sustainable Practices",
+          "description": "Eco-friendly materials and responsible sourcing for lasting quality"
+        }
+      }
+    },
+    "testimonials_section": {
+      "title": "What Our Customers Say",
+      "feedback": "I was looking for a unique coffee table, and the Zigon design exceeded all my expectations. The craftsmanship is outstanding!",
+      "read_more_button": "Read More Reviews"
+    },
+    "call_to_action_section": {
+      "title": "Ready to Transform Your Space?",
+      "subtitle": "Discover our complete collection and find the perfect pieces for your home",
+      "browse_button": "Browse Collection",
+      "contact_button": "Contact Us"
+    }
+  },
+  "products": {
+    "product1": "Product 1",
+    "product2": "Product 2",
+    "product3": "Product 3",
+    "product4": "Product 4",
+    "product5": "Product 5",
+    "product6": "Product 6",
+    "product7": "Product 7",
+    "product8": "Product 8",
+    "product9": "Product 9",
+    "product10": "Product 10",
+    "product11": "Product 11",
+    "product12": "Product 12",
+    "product13": "Product 13",
+    "product14": "Product 14",
+    "product15": "Product 15",
+    "product16": "Product 16",
+    "product17": "Product 17",
+    "product18": "Product 18",
+    "product19": "Product 19",
+    "product20": "Product 20"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Crafting furniture that transforms houses into homes, one piece at a time",
+    "quote_section": {
+      "quote": "Furniture is more than wood and metal—it's the heart of a home, the silent witness to life's moments.",
+      "role": "Founder & Master Craftsman"
+    },
+    "story_section": {
+      "title": "Our Story",
+      "subtitle": "From Humble Beginnings to Global Reach",
+      "description_paragraph1": "Bahadır's passion for furniture design began in a small workshop, where curiosity and creativity first took shape. Inspired by the timeless beauty of handcrafted pieces and the stories they hold, he set out to create furniture that marries form and function.",
+      "description_paragraph2": "With a background in woodworking, Bahadır honed his skills, learning from master craftsmen and experimenting with innovative techniques. Each piece is a testament to his dedication to excellence.",
+      "description_paragraph3": "Today, Monteri stands as a symbol of quality, creativity, and the enduring value of handmade furniture. From the first sketch to the final polish, every item is crafted with care.",
+      "side_title": "From Workshop to World",
+      "side_stats": {
+        "years_experience": "Years Experience",
+        "happy_homes": "Happy Homes",
+        "countries": "Countries",
+        "handcrafted": "Handcrafted"
+      }
+    },
+    "mission_section": {
+      "title": "Our Mission",
+      "mission_statement": "At Monteri, our mission is to create furniture that inspires and endures. We believe in the power of thoughtful design, the beauty of natural materials, and the importance of craftsmanship.",
+      "values": {
+        "quality": {
+          "title": "Quality",
+          "description": "We use only the finest materials and meticulous craftsmanship to ensure every piece meets our high standards."
+        },
+        "innovation": {
+          "title": "Innovative Design",
+          "description": "Our designs blend classic techniques with modern aesthetics to create functional art for your home."
+        },
+        "sustainability": {
+          "title": "Sustainability",
+          "description": "Building pieces that last, reducing waste and promoting responsible sourcing."
+        },
+        "customer_focus": {
+          "title": "Customer Satisfaction",
+          "description": "Ensuring every interaction and every product exceeds expectations."
+        }
+      }
+    },
+    "products_section": {
+      "title": "Our Products",
+      "subtitle": "Each piece in our collection is designed to enhance your living experience",
+      "categories": {
+        "tables": {
+          "title": "Tables",
+          "description": "Cozy and inviting focal points for any home"
+        },
+        "service_trolleys": {
+          "title": "Service Trolleys",
+          "description": "Perfect for entertaining and everyday convenience"
+        },
+        "coffee_tables": {
+          "title": "Service Coffee Tables",
+          "description": "Elegant and practical centerpieces for your living space"
+        },
+        "zigon_tables": {
+          "title": "Zigon Coffee Tables",
+          "description": "Unique designs that make a statement"
+        },
+        "side_tables": {
+          "title": "Side Tables",
+          "description": "Versatile and stylish additions to your decor"
+        }
+      }
+    },
+    "commitment_section": {
+      "title": "Our Commitment",
+      "subtitle": "We implement total quality management and prioritize customer satisfaction in everything we do",
+      "points": {
+        "quality_assurance": {
+          "title": "Quality Assurance",
+          "description": "Every piece undergoes rigorous quality checks to ensure it meets our high standards."
+        },
+        "global_reach": {
+          "title": "Global Reach",
+          "description": "Wholesale and retail sales with worldwide shipping capabilities"
+        },
+        "customer_first": {
+          "title": "Customer First",
+          "description": "Your satisfaction is our priority, from first contact to final delivery"
+        }
+      }
+    },
+    "testimonials_section": {
+      "title": "What Our Customers Say",
+      "subtitle": "Real stories from satisfied customers around the world",
+      "feedback1": "The service trolley I purchased from Monteri is not only beautiful but incredibly functional. It's become the centerpiece of my dining room!",
+      "feedback2": "I was looking for a unique coffee table, and the Zigon design exceeded all my expectations. The craftsmanship is outstanding!",
+      "feedback3": "I recently purchased a side table and it's the perfect addition to my living room. Beautifully crafted and very sturdy!",
+      "feedback4": "The service coffee table is both elegant and practical. It's a beautiful centerpiece that also offers great functionality.",
+      "feedback5": "I'm impressed with the quality of the materials used in the service trolley. It's clear that Monteri values craftsmanship.",
+      "feedback6": "The Zigon coffee tables are a conversation starter! They add a unique touch to my home decor and are very well-made."
+    },
+    "call_to_action_section": {
+      "title": "Ready to Transform Your Space?",
+      "subtitle": "Discover our complete collection and bring timeless craftsmanship to your home",
+      "view_products_button": "View Products",
+      "contact_button": "Contact Us"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you! Whether you have questions about our products, need assistance, or want to provide feedback, feel free to reach out. You can contact us via:",
+    "options": {
+      "phone": "Phone",
+      "email": "E-mail"
+    },
+    "form": {
+      "title": "Get in Touch",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit_button": "Send Message"
+    },
+    "address_section": {
+      "title": "Our Location"
+    }
   }
 }

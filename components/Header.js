@@ -1,8 +1,10 @@
 'use client';
 import Link from 'next/link';
 import { useState } from 'react';
+import {useTranslations} from 'next-intl';
 
 export default function Header() {
+  const t = useTranslations('header');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -19,7 +21,7 @@ export default function Header() {
         <Link href="/">
           <div className='text-center'>
             <h1 className="text-6xl font-bold">Monteri</h1>
-            <p className="text-sm">✨ Birinci Sınıf Yaşam Alanları</p>
+            <p className="text-sm">{t('sublogo')}</p>
           </div>
         </Link>
         {/* Hamburger menu for mobile */}
@@ -35,19 +37,19 @@ export default function Header() {
         <div className="hidden lg:flex justify-center">
           <ul className="flex space-x-4 text-lg font-medium">
             <li>
-              <Link href="/" className="hover:underline">Home</Link>
+              <Link href="/" className="hover:underline">{t('nav.home')}</Link>
             </li>
             <span className="text-gray-300">|</span>
             <li>
-              <Link href="/products" className="hover:underline">Products</Link>
+              <Link href="/products" className="hover:underline">{t('nav.products')}</Link>
             </li>
             <span className="text-gray-300">|</span>
             <li>
-              <Link href="/about" className="hover:underline">About Us</Link>
+              <Link href="/about" className="hover:underline">{t('nav.about')}</Link>
             </li>
             <span className="text-gray-300">|</span>
             <li>
-              <Link href="/contact" className="hover:underline">Contact</Link>
+              <Link href="/contact" className="hover:underline">{t('nav.contact')}</Link>
             </li>
           </ul>
         </div>
@@ -57,16 +59,16 @@ export default function Header() {
       <div className={`lg:hidden absolute w-full bg-white text-green-950 z-10 overflow-hidden transition-max-height duration-750 ease-linear ${isMenuOpen ? 'max-h-96' : 'max-h-0'}`}>
         <ul className="flex flex-col text-center font-bold space-y-4 pt-4 pb-4">
           <li>
-            <Link href="/" className="hover:underline block" onClick={toggleMenu}>Home</Link>
+            <Link href="/" className="hover:underline block" onClick={toggleMenu}>{t('nav.home')}</Link>
           </li>
           <li>
-            <Link href="/products" className="hover:underline block" onClick={toggleMenu}>Products</Link>
+            <Link href="/products" className="hover:underline block" onClick={toggleMenu}>{t('nav.products')}</Link>
           </li>
           <li>
-            <Link href="/about" className="hover:underline block" onClick={toggleMenu}>About Us</Link>
+            <Link href="/about" className="hover:underline block" onClick={toggleMenu}>{t('nav.about')}</Link>
           </li>
           <li>
-            <Link href="/contact" className="hover:underline block" onClick={toggleMenu}>Contact</Link>
+            <Link href="/contact" className="hover:underline block" onClick={toggleMenu}>{t('nav.contact')}</Link>
           </li>
         </ul>
       </div>
