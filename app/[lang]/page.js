@@ -201,7 +201,7 @@ export default function HomePage() {
                 ))}
               </div>
               <blockquote className="text-xl italic mb-4">
-                "I was looking for a unique coffee table, and the Zigon design exceeded all my expectations. The craftsmanship is outstanding!"
+                &quot;I was looking for a unique coffee table, and the Zigon design exceeded all my expectations. The craftsmanship is outstanding!&quot;
               </blockquote>
               <div className="text-green-800 font-semibold">— Metin U.</div>
             </div>
