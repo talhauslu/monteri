@@ -71,7 +71,7 @@ export default function About() {
                         </div>
                         <blockquote className="relative">
                             <p className="text-2xl md:text-3xl font-light text-gray-700 italic text-center leading-relaxed mb-6">
-                                "Furniture is more than wood and metal—it's the heart of a home, the silent witness to life's moments."
+                                &quot;Furniture is more than wood and metal—it&apos;s the heart of a home, the silent witness to life&apos;s moments.&quot;
                             </p>
                             <footer className="text-center">
                                 <span className="text-lg font-semibold text-green-600">— Bahadır Daylan</span>
@@ -90,7 +90,7 @@ export default function About() {
                                 <h3 className="text-2xl font-semibold text-green-600 mb-4">A Legacy of Craftsmanship</h3>
                                 <div className="space-y-4 text-gray-700 leading-relaxed">
                                     <p>
-                                        Bahadır's passion for furniture design began in a small workshop, where curiosity and creativity first took shape. Inspired by the timeless beauty of handcrafted pieces and the stories they hold, he set out to create furniture that marries form and function.
+                                        Bahadır&apos;s passion for furniture design began in a small workshop, where curiosity and creativity first took shape. Inspired by the timeless beauty of handcrafted pieces and the stories they hold, he set out to create furniture that marries form and function.
                                     </p>
                                     <p>
                                         With a background in woodworking, Bahadır honed his skills, learning from master craftsmen and experimenting with innovative techniques. Each piece is a testament to his dedication to excellence.
@@ -223,7 +223,7 @@ export default function About() {
                                         ))}
                                     </div>
                                     <blockquote className="text-gray-700 mb-4 italic">
-                                        "{testimonial.text}"
+                                        &quot;{testimonial.text}&quot;
                                     </blockquote>
                                     <footer className="text-center">
                                         <p className="font-semibold text-green-600">{testimonial.author}</p>

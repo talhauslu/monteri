@@ -18,7 +18,7 @@ export default function HeroSlider() {
         }, 5000);
 
         return () => clearInterval(timer);
-    }, []);
+    }, [slides.length]);
 
     const goToSlide = (index) => {
         setCurrentSlide(index);
