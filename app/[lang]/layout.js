@@ -46,7 +46,7 @@ export default async function RootLayout({ children, params }) {
                 alt="WhatsApp"
                 width={48}  
                 height={48}
-                className="w-12 h-12 rounded-full shadow-lg hover:scale-110 transition-transform duration-200"
+                className="w-12 h-12 rounded-full hover:scale-110 transition-transform duration-200"
               />
             </a>
           </div>

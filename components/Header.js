@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <div>
-      <div className="w-full pr-6 pl-6 pb-2 pt-2 flex justify-between bg-green-950 space-evenly">
+      <div className="w-full pr-6 pl-6 pb-2 pt-2 flex justify-between bg-green-950 space-evenly md:pr-4 md:pl-4 sm:pr-2 sm:pl-2">
         <a className="text-base text-white" href='mailto:daylanbahadir@gmail.com'>daylanbahadir@gmail.com</a>
         <a className="text-base text-white" href='tel:+905425629933'>+905425629933</a>
       </div>
@@ -54,7 +54,7 @@ export default function Header() {
       </div>
 
       {/* Mobile menu, hidden by default, slide in with transition */}
-      <div className={`lg:hidden absolute w-full bg-white text-green-950 z-10 overflow-hidden transition-max-height duration-1000 ease-in-out ${isMenuOpen ? 'max-h-96' : 'max-h-0'}`}>
+      <div className={`lg:hidden absolute w-full bg-white text-green-950 z-10 overflow-hidden transition-max-height duration-750 ease-linear ${isMenuOpen ? 'max-h-96' : 'max-h-0'}`}>
         <ul className="flex flex-col text-center font-bold space-y-4 pt-4 pb-4">
           <li>
             <Link href="/" className="hover:underline block" onClick={toggleMenu}>Home</Link>
