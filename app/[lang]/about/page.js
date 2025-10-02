@@ -14,9 +14,9 @@ export default function About() {
     const products = [
         { name: t('products_section.categories.tables.title'), desc: t('products_section.categories.tables.description') },
         { name: t('products_section.categories.coffee_tables.title'), desc: t('products_section.categories.coffee_tables.description') },
-        { name: t('products_section.categories.zigon_tables.title'), desc: t('products_section.categories.zigon_tables.description') },
         { name: t('products_section.categories.side_tables.title'), desc: t('products_section.categories.side_tables.description') },
-        { name: t('products_section.categories.service_trolleys.title'), desc: t('products_section.categories.service_trolleys.description') }
+        // { name: t('products_section.categories.zigon_tables.title'), desc: t('products_section.categories.zigon_tables.description') },
+        // { name: t('products_section.categories.service_trolleys.title'), desc: t('products_section.categories.service_trolleys.description') }
     ];
 
     const testimonials = [
@@ -27,12 +27,12 @@ export default function About() {
         },
         {
             text: t('testimonials_section.feedback2'),
-            author: "Metin U.",
+            author: "Oğuz P.",
             location: "Bursa, Turkey"
         },
         {
             text: t('testimonials_section.feedback3'),
-            author: "Oğuz P.",
+            author: "Metin U.",
             location: "Istanbul, Turkey"
         },
         {
@@ -54,9 +54,9 @@ export default function About() {
 
     return (
         <div>
-            <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-green-50">
+            <div className="min-h-screen bg-gradient-to-br from-neutral-50 via-white to-stone-50">
                 {/* Hero Section */}
-                <div className="bg-gradient-to-r from-emerald-900 to-green-900 text-white py-16">
+                <div className="bg-gradient-to-r from-neutral-900 to-stone-900 text-white py-16">
                     <div className="max-w-6xl mx-auto px-4 text-center">
                         <h1 className="text-5xl md:text-6xl font-extrabold mb-6">{t('title')}</h1>
                         <p className="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto">
@@ -72,12 +72,12 @@ export default function About() {
                             <i className="fa fa-quote-right fa-4x" aria-hidden="true"></i>
                         </div>
                         <blockquote className="relative">
-                            <p className="text-2xl md:text-3xl font-light text-gray-700 italic text-center leading-relaxed mb-6">
+                            <p className="text-2xl md:text-3xl font-light text-neutral-700 italic text-center leading-relaxed mb-6">
                                 {t('quote_section.quote')}
                             </p>
                             <footer className="text-center">
-                                <span className="text-lg font-semibold text-green-600">— Bahadır Daylan</span>
-                                <p className="text-sm text-gray-500 mt-1">{t('quote_section.role')}</p>
+                                <span className="text-lg font-semibold text-stone-600">— Bahadır Daylan</span>
+                                <p className="text-sm text-neutral-500 mt-1">{t('quote_section.role')}</p>
                             </footer>
                         </blockquote>
                     </div>
@@ -87,35 +87,35 @@ export default function About() {
                         <div className="grid md:grid-cols-2 gap-12 items-center">
                             <div>
                                 <div className="flex items-center mb-6">
-                                    <h2 className="text-4xl font-bold text-gray-800">{t('story_section.title')}</h2>
+                                    <h2 className="text-4xl font-bold text-neutral-800">{t('story_section.title')}</h2>
                                 </div>
-                                <h3 className="text-2xl font-semibold text-green-600 mb-4">{t('story_section.subtitle')}</h3>
-                                <div className="space-y-4 text-gray-700 leading-relaxed">
-                                    <p>{t('story_section.description_paragraph1')}</p>
-                                    <p>{t('story_section.description_paragraph2')}</p>
-                                    <p>{t('story_section.description_paragraph3')}</p>
+                                <h3 className="text-2xl font-semibold text-stone-600 mb-4">{t('story_section.subtitle')}</h3>
+                                <div className="space-y-4 text-neutral-700 leading-relaxed">
+                                    <p className="indent-3">{t('story_section.description_paragraph1')}</p>
+                                    <p className="indent-3">{t('story_section.description_paragraph2')}</p>
+                                    <p className="indent-3">{t('story_section.description_paragraph3')}</p>
                                 </div>
                             </div>
-                            <div className="bg-gradient-to-br from-green-100 to-emerald-100 rounded-2xl p-8">
+                            <div className="bg-gradient-to-br from-stone-100 to-neutral-100 rounded-2xl p-8">
                                 <div className="text-center">
-                                    <i className="fa fa-globe fa-5x text-green-600 mb-4" aria-hidden="true"></i>
-                                    <h4 className="text-xl font-semibold text-gray-800 mb-4">{t('story_section.side_title')}</h4>
+                                    <i className="fa fa-globe fa-5x text-stone-600 mb-4" aria-hidden="true"></i>
+                                    <h4 className="text-xl font-semibold text-neutral-800 mb-4">{t('story_section.side_title')}</h4>
                                     <div className="grid grid-cols-2 gap-4 text-center">
                                         <div className="bg-white rounded-lg p-4">
-                                            <div className="text-3xl font-bold text-green-600">10+</div>
-                                            <div className="text-sm text-gray-600">{t('story_section.side_stats.years_experience')}</div>
+                                            <div className="text-3xl font-bold text-stone-600">8+</div>
+                                            <div className="text-sm text-neutral-600">{t('story_section.side_stats.years_experience')}</div>
                                         </div>
                                         <div className="bg-white rounded-lg p-4">
-                                            <div className="text-3xl font-bold text-green-600">100+</div>
-                                            <div className="text-sm text-gray-600">{t('story_section.side_stats.happy_homes')}</div>
+                                            <div className="text-3xl font-bold text-stone-600">100+</div>
+                                            <div className="text-sm text-neutral-600">{t('story_section.side_stats.happy_homes')}</div>
                                         </div>
                                         <div className="bg-white rounded-lg p-4">
-                                            <div className="text-3xl font-bold text-green-600">5+</div>
-                                            <div className="text-sm text-gray-600">{t('story_section.side_stats.countries')}</div>
+                                            <div className="text-3xl font-bold text-stone-600">5+</div>
+                                            <div className="text-sm text-neutral-600">{t('story_section.side_stats.countries')}</div>
                                         </div>
                                         <div className="bg-white rounded-lg p-4">
-                                            <div className="text-3xl font-bold text-green-600">100%</div>
-                                            <div className="text-sm text-gray-600">{t('story_section.side_stats.handcrafted')}</div>
+                                            <div className="text-3xl font-bold text-stone-600">100%</div>
+                                            <div className="text-sm text-neutral-600">{t('story_section.side_stats.handcrafted')}</div>
                                         </div>
                                     </div>
                                 </div>
@@ -127,10 +127,10 @@ export default function About() {
                     <section className="mb-16">
                         <div className="text-center mb-12">
                             <div className="flex items-center justify-center mb-4">
-                                {/* <Globe className="w-8 h-8 text-green-600 mr-3" /> */}
-                                <h2 className="text-4xl font-bold text-gray-800">{t('mission_section.title')}</h2>
+                                {/* <Globe className="w-8 h-8 text-stone-600 mr-3" /> */}
+                                <h2 className="text-4xl font-bold text-neutral-800">{t('mission_section.title')}</h2>
                             </div>
-                            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                            <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
                                 {t('mission_section.mission_statement')}
                             </p>
                         </div>
@@ -138,11 +138,11 @@ export default function About() {
                         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                             {missionPoints.map((point, index) => (
                                 <div key={index} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
-                                    <div className="bg-gradient-to-br from-green-100 to-emerald-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                                        <i className={`fa fa-${point.icon} fa-2x w-8 h-8 text-green-600`} />
+                                    <div className="bg-gradient-to-br from-stone-100 to-neutral-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                                        <i className={`fa fa-${point.icon} fa-2x w-8 h-8 text-stone-600`} />
                                     </div>
-                                    <h3 className="text-xl font-semibold text-gray-800 mb-2">{point.title}</h3>
-                                    <p className="text-gray-600 text-sm">{point.desc}</p>
+                                    <h3 className="text-xl font-semibold text-neutral-800 mb-2">{point.title}</h3>
+                                    <p className="text-neutral-600 text-sm">{point.desc}</p>
                                 </div>
                             ))}
                         </div>
@@ -152,21 +152,21 @@ export default function About() {
                     <section className="mb-16">
                         <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
                             <div className="text-center mb-10">
-                                <h2 className="text-4xl font-bold text-gray-800 mb-4">{t('products_section.title')}</h2>
-                                <p className="text-xl text-gray-600">{t('products_section.subtitle')}</p>
+                                <h2 className="text-4xl font-bold text-neutral-800 mb-4">{t('products_section.title')}</h2>
+                                <p className="text-xl text-neutral-600">{t('products_section.subtitle')}</p>
                             </div>
 
                             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                                 {products.map((product, index) => (
-                                    <div key={index} className="group hover:bg-green-50 rounded-xl p-6 transition-colors cursor-pointer">
+                                    <div key={index} className="group hover:bg-stone-50 rounded-xl p-6 transition-colors cursor-pointer">
                                         <div className="flex items-start space-x-4">
-                                            <div className="bg-gradient-to-br from-green-100 to-emerald-100 rounded-lg p-3 group-hover:from-green-200 group-hover:to-emerald-200 transition-colors">
-                                                <i className="fa fa-arrow-right fa-2x text-green-600" aria-hidden="true"></i>
-                                                {/* <product.icon className="w-6 h-6 text-green-600" /> */}
+                                            <div className="bg-gradient-to-br from-stone-100 to-neutral-100 rounded-lg p-3 group-hover:from-stone-200 group-hover:to-neutral-200 transition-colors">
+                                                <i className="fa fa-arrow-right fa-2x text-stone-600" aria-hidden="true"></i>
+                                                {/* <product.icon className="w-6 h-6 text-stone-600" /> */}
                                             </div>
                                             <div className="flex-1">
-                                                <h3 className="text-lg font-semibold text-gray-800 mb-1">{product.name}</h3>
-                                                <p className="text-gray-600 text-sm">{product.desc}</p>
+                                                <h3 className="text-lg font-semibold text-neutral-800 mb-1">{product.name}</h3>
+                                                <p className="text-neutral-600 text-sm">{product.desc}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -177,7 +177,7 @@ export default function About() {
 
                     {/* Values Section */}
                     <section className="mb-16">
-                        <div className="bg-gradient-to-r from-green-800 to-green-900 rounded-2xl p-8 md:p-12 text-white">
+                        <div className="bg-gradient-to-r from-stone-800 to-stone-900 rounded-2xl p-8 md:p-12 text-white">
                             <div className="text-center mb-10">
                                 <h2 className="text-4xl font-bold mb-4">{t('commitment_section.title')}</h2>
                                 <p className="text-xl opacity-90">{t('commitment_section.subtitle')}</p>
@@ -185,17 +185,17 @@ export default function About() {
 
                             <div className="grid md:grid-cols-3 gap-8">
                                 <div className="text-center">
-                                    <i className="fa fa-shield fa-3x text-green-400 mx-auto mb-4" aria-hidden="true"></i>
+                                    <i className="fa fa-shield fa-3x text-stone-400 mx-auto mb-4" aria-hidden="true"></i>
                                     <h3 className="text-xl font-semibold mb-2">{t('commitment_section.points.quality_assurance.title')}</h3>
                                     <p className="opacity-90">{t('commitment_section.points.quality_assurance.description')}</p>
                                 </div>
                                 <div className="text-center">
-                                    <i className="fa fa-globe fa-3x text-green-400 mx-auto mb-4" aria-hidden="true"></i>
+                                    <i className="fa fa-globe fa-3x text-stone-400 mx-auto mb-4" aria-hidden="true"></i>
                                     <h3 className="text-xl font-semibold mb-2">{t('commitment_section.points.global_reach.title')}</h3>
                                     <p className="opacity-90">{t('commitment_section.points.global_reach.description')}</p>
                                 </div>
                                 <div className="text-center">
-                                    <i className="fa fa-heart fa-3x text-green-400 mx-auto mb-4" aria-hidden="true"></i>
+                                    <i className="fa fa-heart fa-3x text-stone-400 mx-auto mb-4" aria-hidden="true"></i>
                                     <h3 className="text-xl font-semibold mb-2">{t('commitment_section.points.customer_first.title')}</h3>
                                     <p className="opacity-90">{t('commitment_section.points.customer_first.description')}</p>
                                 </div>
@@ -206,8 +206,8 @@ export default function About() {
                     {/* Testimonials Section */}
                     <section>
                         <div className="text-center mb-12">
-                            <h2 className="text-4xl font-bold text-gray-800 mb-4">{t('testimonials_section.title')}</h2>
-                            <p className="text-xl text-gray-600">{t('testimonials_section.subtitle')}</p>
+                            <h2 className="text-4xl font-bold text-neutral-800 mb-4">{t('testimonials_section.title')}</h2>
+                            <p className="text-xl text-neutral-600">{t('testimonials_section.subtitle')}</p>
                         </div>
 
                         <div className="grid md:grid-cols-3 gap-8">
@@ -218,12 +218,12 @@ export default function About() {
                                             <i key={i} className="fa fa-star text-yellow-500" aria-hidden="true"></i>
                                         ))}
                                     </div>
-                                    <blockquote className="text-gray-700 mb-4 italic">
+                                    <blockquote className="text-neutral-700 mb-4 italic">
                                         &quot;{testimonial.text}&quot;
                                     </blockquote>
                                     <footer className="text-center">
-                                        <p className="font-semibold text-green-600">{testimonial.author}</p>
-                                        <p className="text-sm text-gray-500">{testimonial.location}</p>
+                                        <p className="font-semibold text-stone-600">{testimonial.author}</p>
+                                        <p className="text-sm text-neutral-500">{testimonial.location}</p>
                                     </footer>
                                 </div>
                             ))}
@@ -232,17 +232,17 @@ export default function About() {
 
                     {/* Call to Action */}
                     <div className="text-center mt-16">
-                        <div className="bg-gradient-to-r from-green-900 to-emerald-900 rounded-2xl p-8 text-white">
+                        <div className="bg-gradient-to-r from-stone-900 to-neutral-900 rounded-2xl p-8 text-white">
                             <h3 className="text-3xl font-bold mb-4">{t('call_to_action_section.title')}</h3>
                             <p className="text-xl mb-6 opacity-90">{t('call_to_action_section.subtitle')}</p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Link href="/products">
-                                    <button className="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                                    <button className="bg-white text-stone-600 px-8 py-3 rounded-lg font-semibold hover:bg-neutral-100 transition-colors duration-130 hover:-translate-y-0.5 cursor-pointer">
                                         {t('call_to_action_section.view_products_button')}
                                     </button>
                                 </Link>
                                 <Link href="/contact">
-                                    <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors">
+                                    <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-stone-600 transition-colors duration-130 hover:-translate-y-0.5 cursor-pointer">
                                         {t('call_to_action_section.contact_button')}
                                     </button>
                                 </Link>

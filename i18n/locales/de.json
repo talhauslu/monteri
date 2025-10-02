@@ -41,7 +41,7 @@
           "description": "Elegante Mittelpunkte, die Räume verbinden"
         },
         "tables": {
-          "title": "Tische",
+          "title": "Couchtisch-Sets",
           "description": "Vielseitige Designs für Ess- und Arbeitsbereiche"
         },
         "side_tables": {
@@ -96,7 +96,7 @@
     },
     "testimonials_section": {
       "title": "Was Unsere Kunden Sagen",
-      "feedback": "Ich suchte nach einem besonderen Couchtisch, und das Satztisch-Design hat meine Erwartungen übertroffen. Die Handwerkskunst ist hervorragend!",
+      "feedback": "Ich suchte nach einem anderen Couchtisch, und dieses Design hat all meine Erwartungen übertroffen. Die Handwerkskunst ist hervorragend!",
       "read_more_button": "Mehr Bewertungen lesen"
     },
     "call_to_action_section": {
@@ -138,9 +138,9 @@
     "story_section": {
       "title": "Unsere Geschichte",
       "subtitle": "Von bescheidenen Anfängen zur globalen Reichweite",
-      "description_paragraph1": "Bahadirs Leidenschaft für Möbeldesign begann in einer kleinen Werkstatt. Inspiriert von der zeitlosen Schönheit handgefertigter Stücke und den Geschichten, die sie tragen, begann er Möbel zu entwerfen, die Form und Funktion vereinen.",
-      "description_paragraph2": "Mit seinem Hintergrund in der Holzverarbeitung verfeinerte Bahadir seine Fähigkeiten, lernte von Meisterhandwerkern und experimentierte mit innovativen Techniken. Jedes Stück ist ein Beweis für sein Streben nach Perfektion.",
-      "description_paragraph3": "Heute steht Monteri als Symbol für Qualität, Kreativität und den bleibenden Wert handgefertigter Möbel. Vom ersten Entwurf bis zur letzten Politur wird jedes Stück mit Sorgfalt gefertigt.",
+      "description_paragraph1": "Seit 2017 ist Monteri in verschiedenen Bereichen der Möbelindustrie tätig und legt dabei besonderen Wert auf Design, Qualität und globale Wirkung.",
+      "description_paragraph2": "Ab 2025 haben wir unseren Fokus auf innovative Couchtisch-Designs verlagert und bieten Produkte an, die Wohnräumen sowohl Ästhetik als auch Funktionalität verleihen. Unsere Produktion, die sich der höchsten Qualität und Kundenzufriedenheit in jeder Phase verpflichtet fühlt, findet in unserer Anlage in İnegöl, Bursa, gemäß internationalen Standards statt.",
+      "description_paragraph3": "Bei Monteri widmen wir uns der Schaffung inspirierender Innenräume durch unsere originellen Designs und verfolgen die Vision, eine trendsetzende Marke in der Welt der Möbel zu werden.",
       "side_title": "Von der Werkstatt in die Welt",
       "side_stats": {
         "years_experience": "Jahre Erfahrung",
@@ -176,7 +176,7 @@
       "subtitle": "Jedes Stück unserer Kollektion ist darauf ausgelegt, Ihr Wohnerlebnis zu bereichern",
       "categories": {
         "tables": {
-          "title": "Tische",
+          "title": "Couchtisch-Sets",
           "description": "Warme und einladende Mittelpunkte für jedes Zuhause"
         },
         "service_trolleys": {
@@ -218,12 +218,12 @@
     "testimonials_section": {
       "title": "Was Unsere Kunden Sagen",
       "subtitle": "Echte Geschichten zufriedener Kunden weltweit",
-      "feedback1": "Der Servierwagen, den ich bei Monteri gekauft habe, ist nicht nur schön, sondern auch unglaublich praktisch. Er ist zum Mittelpunkt meines Esszimmers geworden!",
-      "feedback2": "Ich suchte nach einem besonderen Couchtisch, und das Satztisch-Design hat meine Erwartungen übertroffen. Die Handwerkskunst ist hervorragend!",
-      "feedback3": "Ich habe kürzlich einen Beistelltisch gekauft und er passt perfekt in mein Wohnzimmer. Wunderschön verarbeitet und sehr stabil!",
-      "feedback4": "Der Couchtisch ist sowohl elegant als auch praktisch. Ein schönes Zentrum, das gleichzeitig Funktionalität bietet.",
-      "feedback5": "Ich bin beeindruckt von der Qualität der im Servierwagen verwendeten Materialien. Es ist deutlich, dass Monteri Wert auf Handwerkskunst legt.",
-      "feedback6": "Die Satztische sind ein echtes Gesprächsthema! Sie verleihen meiner Einrichtung eine einzigartige Note und sind sehr hochwertig verarbeitet."
+      "feedback1": "Die Couchtische, die ich von Monteri gekauft habe, sind sowohl sehr stilvoll als auch unglaublich funktional. Sie wurden zum Mittelpunkt meines Esszimmers!",
+      "feedback2": "Ich suchte nach einem anderen Couchtisch, und dieses Design hat all meine Erwartungen übertroffen. Die Handwerkskunst ist hervorragend!",
+      "feedback3": "Vor kurzem habe ich einen Beistelltisch gekauft, und er passt perfekt in mein Wohnzimmer. Sowohl robust als auch sehr stilvoll!",
+      "feedback4": "Der Servierwagen ist sowohl elegant als auch praktisch. Er ist ein stilvolles Herzstück und gleichzeitig sehr funktional.",
+      "feedback5": "Die Materialqualität des Couchtisch-Sets hat mich beeindruckt. Man merkt deutlich, dass Monteri Wert auf Handwerkskunst legt.",
+      "feedback6": "Die Beistelltische sind ein echter Gesprächsanlass! Sie verleihen meiner Einrichtung eine einzigartige Note und sind sehr hochwertig verarbeitet."
     },
     "call_to_action_section": {
       "title": "Bereit, Ihren Raum zu verwandeln?",

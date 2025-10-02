@@ -5,39 +5,39 @@ export default function Contact() {
     return (
         <div>
             <div className='w-full flex flex-col items-center gap-8 p-16'>
-                <h1 className='text-4xl text-green-800 font-bold'>{t('title')}</h1>
+                <h1 className='text-4xl text-stone-800 font-bold'>{t('title')}</h1>
                 <p className='max-w-2xl text-center'>{t('subtitle')}</p>
-                <div className="flex flex-row justify-center w-auto gap-6 flex-wrap whitespace-nowrap">
-                    <a href="tel:+905425629933" className='flex flex-col items-center gap-4 w-48'>
-                        <div className='flex justify-center items-center text-center rounded-full bg-green-800 text-white shadow-lg hover:scale-110 transition-transform duration-200 h-25 w-25'>
+                <div className="flex flex-row justify-center w-auto gap-4 flex-wrap whitespace-nowrap">
+                    <a href="tel:+90 224 715 0 532" className='flex flex-col items-center gap-4 w-48'>
+                        <div className='flex justify-center items-center text-center rounded-full bg-stone-800 text-white shadow-lg hover:scale-110 transition-transform duration-200 h-25 w-25'>
                             <i className="fa fa-phone fa-2x" aria-hidden="true"></i>
                         </div>
                         <h2 className='text-lg tracking-wide font-semibold'>{t('options.phone')}</h2>
-                        <span>+905425629933</span>
+                        <span>+90 224 715 0 532</span>
                     </a>
                     <a href="https://wa.me/905425629933" className='flex flex-col items-center gap-4 w-48'>
-                        <div className='flex justify-center items-center text-center rounded-full bg-green-800 text-white shadow-lg hover:scale-110 transition-transform duration-200 h-25 w-25'>
+                        <div className='flex justify-center items-center text-center rounded-full bg-stone-800 text-white shadow-lg hover:scale-110 transition-transform duration-200 h-25 w-25'>
                             <i className="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
                         </div>
                         <h2 className='text-lg tracking-wide font-semibold'>WhatsApp</h2>
                         <span>+905425629933</span>
                     </a>
-                    <a href="mailto:daylanbahadir@gmail.com" className='flex flex-col items-center gap-4 w-48'>
-                        <div className='flex justify-center items-center text-center rounded-full bg-green-800 text-white shadow-lg hover:scale-110 transition-transform duration-200 h-25 w-25'>
+                    <a href="mailto:info@monteri.tr" className='flex flex-col items-center gap-4 w-48'>
+                        <div className='flex justify-center items-center text-center rounded-full bg-stone-800 text-white shadow-lg hover:scale-110 transition-transform duration-200 h-25 w-25'>
                             <i className="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
                         </div>
                         <h2 className='text-lg tracking-wide font-semibold'>{t('options.email')}</h2>
-                        <span className="text-center truncate">daylanbahadir@gmail.com</span>
+                        <span className="text-center truncate">info@monteri.tr</span>
                     </a>
                     <a href="https://www.facebook.com/monterisofas/" className='flex flex-col items-center gap-4 w-48'>
-                        <div className='flex justify-center items-center text-center rounded-full bg-green-800 text-white shadow-lg hover:scale-110 transition-transform duration-200 h-25 w-25'>
+                        <div className='flex justify-center items-center text-center rounded-full bg-stone-800 text-white shadow-lg hover:scale-110 transition-transform duration-200 h-25 w-25'>
                             <i className="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                         </div>
                         <h2 className='text-lg tracking-wide font-semibold'>Facebook</h2>
                         <span>Monteri Sofa</span>
                     </a>
                     <a href="https://www.instagram.com/monteri.tr/" className='flex flex-col items-center gap-4 w-48'>
-                        <div className='flex justify-center items-center text-center rounded-full bg-green-800 text-white shadow-lg hover:scale-110 transition-transform duration-200 h-25 w-25'>
+                        <div className='flex justify-center items-center text-center rounded-full bg-stone-800 text-white shadow-lg hover:scale-110 transition-transform duration-200 h-25 w-25'>
                             <i className="fa fa-instagram fa-2x" aria-hidden="true"></i>
                         </div>
                         <h2 className='text-lg tracking-wide font-semibold'>Instagram</h2>
@@ -48,7 +48,7 @@ export default function Contact() {
             <div className="w-full flex justify-center items-center p-4 mb-6">
                 <div className="w-full md:w-4/5 flex flex-col md:flex-row justify-center p-4 bg-white shadow-lg border overflow-hidden">
                     <div id="contact-form" className="w-full md:w-1/2 p-4">
-                        <h2 className="text-3xl font-bold text-green-800">{t('form.title')}</h2>
+                        <h2 className="text-3xl font-bold text-stone-800">{t('form.title')}</h2>
                         <form className="w-full max-w-lg bg-white p-8 rounded-lg">
                             <div className="mb-4">
                                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
@@ -70,7 +70,7 @@ export default function Contact() {
                                 <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="5" placeholder="Your Message"></textarea>
                             </div>
                             <div className="flex items-center justify-between">
-                                <button className="bg-green-800 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                                <button className="bg-stone-800 hover:bg-stone-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
                                     {t('form.submit_button')}
                                 </button>
                             </div>
@@ -84,7 +84,7 @@ export default function Contact() {
                             className="text-sm text-gray-700 mb-2">Mahmudiye Mahallesi, Özlem Sokak No:3, Inegol 16400</a>
                         </div>
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!3m2!1str!2str!4v1758466730968!5m2!1str!2str!6m8!1m7!1sAprKR31CTr74p0q7sYVYwQ!2m2!1d40.07616855825053!2d29.52700619736716!3f91.6156874793156!4f6.387816218889611!5f0.7820865974627469"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Mahmudiye%20Mahallesi,%20%C3%96zlem%20Sokak%20No:3,%20Inegol%2016400+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                             allowFullScreen=""
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"

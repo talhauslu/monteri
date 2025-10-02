@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useState } from 'react';
-import {useTranslations} from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 export default function Header() {
   const t = useTranslations('header');
@@ -13,16 +13,19 @@ export default function Header() {
 
   return (
     <div>
-      <div className="w-full pr-6 pl-6 pb-2 pt-2 flex justify-between bg-green-950 space-evenly md:pr-4 md:pl-4 sm:pr-2 sm:pl-2">
-        <a className="text-base text-white" href='mailto:daylanbahadir@gmail.com'>daylanbahadir@gmail.com</a>
-        <a className="text-base text-white" href='tel:+905425629933'>+905425629933</a>
+      <div className="w-full pr-3 pl-3 pb-2 pt-2 flex justify-between bg-stone-950 space-evenly md:pr-4 md:pl-4 sm:pr-2 sm:pl-2">
+        <a className="text-base text-white" href='mailto:info@monteri.tr'><i className='fa fa-envelope-o mr-2'></i><span>info@monteri.tr</span></a>
+        <a className="text-base text-white" href='tel:+90 224 715 0 532'><span>+90 224 715 0 532</span><i className='fa fa-phone ml-2'></i></a>
       </div>
-      <div className="w-full pl-6 pr-6 pt-4 pb-4 bg-white text-green-950 flex flex-row justify-between items-center">
+      <div className="w-full pl-10 pr-10 pt-10 pb-10 bg-white text-stone-950 flex flex-row justify-between items-center">
         <Link href="/">
-          <div className='text-center'>
+          <div className='logo w-70'>
+            <img src="/images/logo.png" alt="Logo" className="w-full h-auto select-none" />
+          </div>
+          {/* <div className='text-center'>
             <h1 className="text-6xl font-bold">Monteri</h1>
             <p className="text-sm">{t('sublogo')}</p>
-          </div>
+          </div> */}
         </Link>
         {/* Hamburger menu for mobile */}
         <div className="lg:hidden">
@@ -35,40 +38,40 @@ export default function Header() {
 
         {/* Regular menu for desktop */}
         <div className="hidden lg:flex justify-center">
-          <ul className="flex space-x-4 text-lg font-medium">
+          <ul className="flex text-2xl font-medium">
             <li>
-              <Link href="/" className="hover:underline">{t('nav.home')}</Link>
+              <Link href="/" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-4 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.home')}</Link>
             </li>
-            <span className="text-gray-300">|</span>
+            <span className="text-gray-300 select-none">|</span>
             <li>
-              <Link href="/products" className="hover:underline">{t('nav.products')}</Link>
+              <Link href="/products" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-4 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.products')}</Link>
             </li>
-            <span className="text-gray-300">|</span>
+            <span className="text-gray-300 select-none">|</span>
             <li>
-              <Link href="/about" className="hover:underline">{t('nav.about')}</Link>
+              <Link href="/about" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-4 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.about')}</Link>
             </li>
-            <span className="text-gray-300">|</span>
+            <span className="text-gray-300 select-none">|</span>
             <li>
-              <Link href="/contact" className="hover:underline">{t('nav.contact')}</Link>
+              <Link href="/contact" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-4 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.contact')}</Link>
             </li>
           </ul>
         </div>
       </div>
 
       {/* Mobile menu, hidden by default, slide in with transition */}
-      <div className={`lg:hidden absolute w-full bg-white text-green-950 z-10 overflow-hidden transition-max-height duration-750 ease-linear ${isMenuOpen ? 'max-h-96' : 'max-h-0'}`}>
-        <ul className="flex flex-col text-center font-bold space-y-4 pt-4 pb-4">
+      <div className={`lg:hidden absolute w-full bg-white text-stone-950 z-10 overflow-hidden transition-max-height duration-750 ease-linear ${isMenuOpen ? 'max-h-96' : 'max-h-0'}`}>
+        <ul className="flex flex-col text-lg text-center font-bold space-y-4 pt-4 pb-4">
           <li>
-            <Link href="/" className="hover:underline block" onClick={toggleMenu}>{t('nav.home')}</Link>
+            <Link href="/" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.home')}</Link>
           </li>
           <li>
-            <Link href="/products" className="hover:underline block" onClick={toggleMenu}>{t('nav.products')}</Link>
+            <Link href="/products" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.products')}</Link>
           </li>
           <li>
-            <Link href="/about" className="hover:underline block" onClick={toggleMenu}>{t('nav.about')}</Link>
+            <Link href="/about" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.about')}</Link>
           </li>
           <li>
-            <Link href="/contact" className="hover:underline block" onClick={toggleMenu}>{t('nav.contact')}</Link>
+            <Link href="/contact" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.contact')}</Link>
           </li>
         </ul>
       </div>

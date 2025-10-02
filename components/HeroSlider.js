@@ -1,27 +1,45 @@
 "use client";
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 export default function HeroSlider() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
-        '/images/0205202568154dcebd0f0.jpeg',
-        '/images/020520256815528407e21-1200x1290.jpeg',
-        '/images/0205202568154a16bca0a-1200x921.jpeg',
-        '/images/0205202568154f32d0dce.jpeg'
+        '/images/COLORIUM SEHPA SET/1.png',
+        '/images/BOHO SEHPA SET/1.png',
+        '/images/EXCOTİC SEHPA SET/1.png',
+        '/images/LOTUS KAPLAMA/1.jpg',
+        '/images/LOTUS TRAVERTEN/1.png',
+        '/images/LUNA SEHPA SET/1.png',
+        '/images/MATRİX/1.png',
+        '/images/MONO/1.png',
+        '/images/OSLO/1.jpg',
+        '/images/PIETRA SEHPA SETİ/1.jpg',
+        '/images/ROYAL/1.png',
+        '/images/TRAVE/1.jpg',
+        '/images/TRİO SET/1.png',
+        '/images/VERONA/1.png'
     ];
+
+    const timerRef = useRef();
 
     // Auto-slide effect
     useEffect(() => {
-        const timer = setInterval(() => {
-            setCurrentSlide((prev) => (prev + 1) % slides.length);
-        }, 5000);
+        startTimer();
+        return () => clearInterval(timerRef.current);
+        // eslint-disable-next-line
+    }, [currentSlide, slides.length]);
 
-        return () => clearInterval(timer);
-    }, [slides.length]);
+    const startTimer = () => {
+        clearInterval(timerRef.current);
+        timerRef.current = setInterval(() => {
+            setCurrentSlide((prev) => (prev + 1) % slides.length);
+        }, 3000);
+    };
 
     const goToSlide = (index) => {
         setCurrentSlide(index);
+        startTimer();
     };
 
     return (
@@ -39,7 +57,7 @@ export default function HeroSlider() {
 
             {/* Right Arrow */}
             <button
-                className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/30 hover:bg-black/50 text-white p-2 rounded-full"
+                className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/30 hover:bg-black/60 text-white p-2 rounded-full"
                 onClick={() => goToSlide((currentSlide + 1) % slides.length)}
                 aria-label="Next slide"
             >
@@ -57,9 +75,11 @@ export default function HeroSlider() {
                         <Image
                             src={src}
                             alt={`Slide ${index + 1}`}
-                            fill
-                            sizes="100vw"
-                            className="object-cover"
+                            // fill
+                            width={1600}
+                            height={1035}
+                            // sizes="100vw"
+                            className="object-contain w-full h-full"
                             priority={index === 0}
                         />
                     </div>
@@ -69,8 +89,8 @@ export default function HeroSlider() {
                 {slides.map((_, index) => (
                     <button
                         key={index}
-                        className={`w-3 h-3 rounded-full ${currentSlide === index ? 'bg-white' : 'bg-white/50'
-                            } hover:bg-white`}
+                        className={`w-3 h-3 rounded-full ${currentSlide === index ? 'bg-black/60' : 'bg-black/30'
+                            } hover:bg-black/60`}
                         aria-label={`Go to slide ${index + 1}`}
                         onClick={() => goToSlide(index)}
                     />

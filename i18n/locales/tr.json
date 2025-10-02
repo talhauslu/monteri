@@ -30,22 +30,22 @@
     },
     "featured_products_section": {
       "title": "Özel Koleksiyonumuz",
-      "subtitle": "Mekânları dönüştüren ve deneyimleri zenginleştiren mobilyalar keşfedin",
+      "subtitle": "Mekânları dönüştüren ve deneyimleri zenginleştiren mobilyaları keşfedin",
       "categories": {
         "service_trolleys": {
           "title": "Servis Arabaları",
           "description": "Şıklık ve kullanım kolaylığıyla misafirlerinizi ağırlayın"
         },
         "coffee_tables": {
-          "title": "Sehpa",
+          "title": "Sehpalar",
           "description": "Odaları bir araya getiren zarif merkez parçalar"
         },
         "tables": {
-          "title": "Masalar",
+          "title": "Sehpa Setleri",
           "description": "Her yemek ve çalışma alanına uygun çok yönlü tasarımlar"
         },
         "side_tables": {
-          "title": "Yan Sehpa",
+          "title": "Yan Sehpalar",
           "description": "Zarif ve çok yönlü tasarımlar"
         },
         "zigon_tables": {
@@ -96,7 +96,7 @@
     },
     "testimonials_section": {
       "title": "Müşterilerimiz Ne Diyor",
-      "feedback": "Farklı bir sehpa arıyordum, Zigon tasarımı tüm beklentilerimi aştı. İşçilik harika!",
+      "feedback": "Farklı bir sehpa arıyordum, bu sehpa tasarımı tüm beklentilerimi aştı. İşçilik harika!",
       "read_more_button": "Daha Fazla Yorum Oku"
     },
     "call_to_action_section": {
@@ -138,9 +138,9 @@
     "story_section": {
       "title": "Hikâyemiz",
       "subtitle": "Mütevazı Başlangıçlardan Küresel Yolculuğa",
-      "description_paragraph1": "Bahadır’ın mobilya tasarımına olan tutkusu küçük bir atölyede başladı. El işçiliği parçaların zamansız güzelliğinden ve taşıdığı hikâyelerden ilham alarak, form ve işlevi bir araya getiren mobilyalar tasarlamaya başladı.",
-      "description_paragraph2": "Ahşap işçiliği geçmişiyle Bahadır, usta zanaatkârlardan öğrenerek ve yenilikçi teknikler deneyerek becerilerini geliştirdi. Her parça, mükemmellik arayışının bir kanıtıdır.",
-      "description_paragraph3": "Bugün Monteri, kalite, yaratıcılık ve el işçiliğinin kalıcı değerinin bir sembolüdür. İlk eskizden son cilaya kadar her ürün özenle hazırlanır.",
+      "description_paragraph1": "Monteri, 2017 yılından bu yana mobilya sektörünün çeşitli alanlarında, tasarım, kalite ve küresel etki odaklı olarak faaliyet göstermektedir.",
+      "description_paragraph2": "2025 itibarıyla odağımızı yenilikçi sehpa tasarımlarına kaydırdık ve yaşam alanlarına estetik ve işlevsellik katan ürünler sunuyoruz. Her aşamada en yüksek kaliteyi ve müşteri memnuniyetini sağlamaya kararlı olan üretimimiz, uluslararası standartlara uygun şekilde Bursa İnegöl’deki tesisimizde gerçekleştirilmektedir.",
+      "description_paragraph3": "Monteri olarak, özgün tasarımlarımızla ilham verici iç mekanlar oluşturmayı kendimize görev ediniyor ve mobilya dünyasında trend belirleyen bir marka olma vizyonuyla ilerliyoruz.",
       "side_title": "Atölyeden Dünyaya",
       "side_stats": {
         "years_experience": "Yıllık Deneyim",
@@ -176,7 +176,7 @@
       "subtitle": "Koleksiyonumuzdaki her parça yaşam alanınızı güzelleştirmek için tasarlandı",
       "categories": {
         "tables": {
-          "title": "Masalar",
+          "title": "Sehpa Setleri",
           "description": "Her ev için sıcak ve davetkâr odak noktaları"
         },
         "service_trolleys": {
@@ -218,12 +218,12 @@
     "testimonials_section": {
       "title": "Müşterilerimiz Ne Diyor",
       "subtitle": "Dünya çapındaki memnun müşterilerimizden gerçek hikâyeler",
-      "feedback1": "Monteri’den aldığım servis arabası hem çok şık hem de inanılmaz işlevsel. Yemek odamın merkez parçası oldu!",
-      "feedback2": "Farklı bir sehpa arıyordum, Zigon tasarımı tüm beklentilerimi aştı. İşçilik harika!",
+      "feedback1": "Monteri’den aldığım sehpalar hem çok şık hem de inanılmaz işlevsel. Yemek odamın merkez parçası oldu!",
+      "feedback2": "Farklı bir sehpa arıyordum, bu sehpa tasarımı tüm beklentilerimi aştı. İşçilik harika!",
       "feedback3": "Yakın zamanda yan sehpa aldım, salonuma mükemmel uydu. Hem sağlam hem de çok şık!",
       "feedback4": "Servis sehpası hem zarif hem de pratik. Hem şık bir merkez parça hem de işlevsel.",
-      "feedback5": "Servis arabasında kullanılan malzeme kalitesine hayran kaldım. Monteri’nin işçiliğe önem verdiği çok belli.",
-      "feedback6": "Zigon sehpalar tam bir sohbet başlatıcı! Evin dekoruna eşsiz bir dokunuş katıyor ve çok kaliteli yapılmış."
+      "feedback5": "Sehpa setinde kullanılan malzeme kalitesine hayran kaldım. Monteri’nin işçiliğe önem verdiği çok belli.",
+      "feedback6": "Yan sehpalar tam bir sohbet başlatıcı! Evin dekoruna eşsiz bir dokunuş katıyor ve çok kaliteli yapılmış."
     },
     "call_to_action_section": {
       "title": "Mekânınızı Dönüştürmeye Hazır mısınız?",
