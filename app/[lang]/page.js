@@ -68,7 +68,7 @@ export default function HomePage() {
               {[
                 { name: t('featured_products_section.categories.tables.title'), desc: t('featured_products_section.categories.tables.description'), imgSrc: "/images/ASOS/1.JPG" },
                 { name: t('featured_products_section.categories.coffee_tables.title'), desc: t('featured_products_section.categories.coffee_tables.description'), imgSrc: "/images/LUNA SEHPA SET/4.JPG" },
-                { name: t('featured_products_section.categories.side_tables.title'), desc: t('featured_products_section.categories.side_tables.description'), imgSrc: "/images/MİLANO/11.jpg" },
+                { name: t('featured_products_section.categories.side_tables.title'), desc: t('featured_products_section.categories.side_tables.description'), imgSrc: "/images/MİLANO/11.JPG" },
               ].map((product, index) => (
                 <div key={index} className="group cursor-pointer">
                   <div className={`h-75 rounded-xl mb-4 flex items-center justify-center transform group-hover:scale-105 transition-transform`}>
