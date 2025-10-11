@@ -13,9 +13,10 @@ export default function Header() {
 
   return (
     <div>
-      <div className="w-full pr-3 pl-3 pb-2 pt-2 flex justify-between bg-stone-950 space-evenly md:pr-4 md:pl-4 sm:pr-2 sm:pl-2">
-        <a className="text-base text-white" href='mailto:info@monteri.tr'><i className='fa fa-envelope-o mr-2'></i><span>info@monteri.tr</span></a>
-        <a className="text-base text-white" href='tel:+90 224 715 0 532'><span>+90 224 715 0 532</span><i className='fa fa-phone ml-2'></i></a>
+      <div className="w-full pr-3 pl-3 pb-2 pt-2 flex justify-center items-center bg-stone-950 md:pr-4 md:pl-4 sm:pr-2 sm:pl-2">
+        {/* <a className="text-base text-white" href='mailto:info@monteri.tr'><i className='fa fa-envelope-o mr-2'></i><span>info@monteri.tr</span></a>
+        <a className="text-base text-white" href='tel:+90 224 715 0 532'><span>+90 224 715 0 532</span><i className='fa fa-phone ml-2'></i></a> */}
+        <p className='text-white text-shadow-white italic'>{t('sublogo')}</p>
       </div>
       <div className="w-full pl-10 pr-10 pt-10 pb-10 bg-white text-stone-950 flex flex-row justify-between items-center">
         <Link href="/">
@@ -65,7 +66,7 @@ export default function Header() {
             <Link href="/" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.home')}</Link>
           </li>
           <li>
-            <Link href="/products" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.products')}</Link>
+            <Link href="/products" className="hover:opacity-50 transition-opacity duration-300 font-" onClick={toggleMenu}>{t('nav.products')}</Link>
           </li>
           <li>
             <Link href="/about" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.about')}</Link>

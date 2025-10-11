@@ -8,6 +8,8 @@ import Header from '@/components/Header';
 import Header2 from '@/components/Header2';
 import LanguagePicker from '@/components/LanguagePicker';
 import Image from 'next/image';
+import "react-image-gallery/styles/css/image-gallery.css";
+
 
 export default async function RootLayout({ children, params }) {
   const { lang } = await params;

@@ -1,5 +1,6 @@
 "use client";
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
 
 export default function HeroSlider() {
@@ -19,6 +20,22 @@ export default function HeroSlider() {
         '/images/TRAVE/1.jpg',
         '/images/TRİO SET/1.png',
         '/images/VERONA/1.png'
+    ];
+    const products = [
+        'COLORIUM',
+        'BOHO',
+        'EXCOTIC',
+        'LOTUS V2',
+        'LOTUS V3',
+        'LUNA V1',
+        'MATRIX V1',
+        'MONO',
+        'OSLO',
+        'PIETRA',
+        'ROYAL',
+        'TRAVE',
+        'TRIO',
+        'VERONA'
     ];
 
     const timerRef = useRef();
@@ -72,16 +89,18 @@ export default function HeroSlider() {
             >
                 {slides.map((src, index) => (
                     <div key={index} className="min-w-full h-full relative">
-                        <Image
-                            src={src}
-                            alt={`Slide ${index + 1}`}
-                            // fill
-                            width={1600}
-                            height={1035}
-                            // sizes="100vw"
-                            className="object-contain w-full h-full"
-                            priority={index === 0}
-                        />
+                        <Link key={index} href={`/products/${products[index].toLowerCase().replace(/\s+/g, '-')}`}>
+                            <Image
+                                src={src}
+                                alt={`Slide ${index + 1}`}
+                                // fill
+                                width={1600}
+                                height={1035}
+                                // sizes="100vw"
+                                className="object-contain w-full h-full"
+                                priority={index === 0}
+                            />
+                        </Link>
                     </div>
                 ))}
             </div>
