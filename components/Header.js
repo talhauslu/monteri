@@ -20,7 +20,7 @@ export default function Header() {
       </div>
       <div className="w-full pl-10 pr-10 pt-10 pb-10 bg-white text-stone-950 flex flex-row justify-between items-center">
         <Link href="/">
-          <div className='logo w-70'>
+          <div className='logo w-60 sm:w-70'>
             <img src="/images/logo.png" alt="Logo" className="w-full h-auto select-none" />
           </div>
           {/* <div className='text-center'>

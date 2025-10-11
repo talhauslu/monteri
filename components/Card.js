@@ -1,6 +1,37 @@
+"use client";
 import Image from 'next/image';
+import { useEffect } from 'react';
 
 export default function ProductCard({ img, name }) {
+    useEffect(() => {
+    // disable right-click
+    const handleContextMenu = (e) => e.preventDefault();
+    document.addEventListener("contextmenu", handleContextMenu);
+
+    // disable image dragging
+    const handleDragStart = (e) => {
+      if (e.target.tagName === "IMG") e.preventDefault();
+    };
+    document.addEventListener("dragstart", handleDragStart);
+
+    // optional: disable certain key combos (Ctrl+S / Ctrl+U)
+    const handleKeyDown = (e) => {
+      if (
+        (e.ctrlKey && ["s", "u", "p"].includes(e.key.toLowerCase())) ||
+        e.key === "PrintScreen"
+      ) {
+        e.preventDefault();
+      }
+    };
+    document.addEventListener("keydown", handleKeyDown);
+
+    // cleanup on unmount
+    return () => {
+      document.removeEventListener("contextmenu", handleContextMenu);
+      document.removeEventListener("dragstart", handleDragStart);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
   return (
     <div className="relative rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 group"
          style={{ aspectRatio: '1600 / 1035', minHeight: 0 }}>

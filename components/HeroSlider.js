@@ -59,6 +59,36 @@ export default function HeroSlider() {
         startTimer();
     };
 
+      useEffect(() => {
+    // disable right-click
+    const handleContextMenu = (e) => e.preventDefault();
+    document.addEventListener("contextmenu", handleContextMenu);
+
+    // disable image dragging
+    const handleDragStart = (e) => {
+      if (e.target.tagName === "IMG") e.preventDefault();
+    };
+    document.addEventListener("dragstart", handleDragStart);
+
+    // optional: disable certain key combos (Ctrl+S / Ctrl+U)
+    const handleKeyDown = (e) => {
+      if (
+        (e.ctrlKey && ["s", "u", "p"].includes(e.key.toLowerCase())) ||
+        e.key === "PrintScreen"
+      ) {
+        e.preventDefault();
+      }
+    };
+    document.addEventListener("keydown", handleKeyDown);
+
+    // cleanup on unmount
+    return () => {
+      document.removeEventListener("contextmenu", handleContextMenu);
+      document.removeEventListener("dragstart", handleDragStart);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
+
     return (
         <div className="hero-slider relative h-[50vh] md:h-screen overflow-hidden">
             {/* Left Arrow */}

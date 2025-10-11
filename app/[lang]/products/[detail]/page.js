@@ -1,7 +1,7 @@
 "use client";
 import { notFound } from "next/navigation";
 import { use } from "react";
-import Image from "next/image";
+import { useEffect } from "react";
 import productsData from "@/data/productsDetailed.json";
 import ImageGallery from "react-image-gallery";
 
@@ -16,6 +16,36 @@ export default function ProductDetailPage({ params }) {
     thumbnail: img
   }));
 
+  useEffect(() => {
+    // disable right-click
+    const handleContextMenu = (e) => e.preventDefault();
+    document.addEventListener("contextmenu", handleContextMenu);
+
+    // disable image dragging
+    const handleDragStart = (e) => {
+      if (e.target.tagName === "IMG") e.preventDefault();
+    };
+    document.addEventListener("dragstart", handleDragStart);
+
+    // optional: disable certain key combos (Ctrl+S / Ctrl+U)
+    const handleKeyDown = (e) => {
+      if (
+        (e.ctrlKey && ["s", "u", "p"].includes(e.key.toLowerCase())) ||
+        e.key === "PrintScreen"
+      ) {
+        e.preventDefault();
+      }
+    };
+    document.addEventListener("keydown", handleKeyDown);
+
+    // cleanup on unmount
+    return () => {
+      document.removeEventListener("contextmenu", handleContextMenu);
+      document.removeEventListener("dragstart", handleDragStart);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
+
   if (!product) {
     notFound();
   }
@@ -26,15 +56,28 @@ export default function ProductDetailPage({ params }) {
       {/* Responsive Layout */}
       <div className="flex flex-col md:flex-row md:items-start gap-8">
         {/* Images Gallery */}
-        <div className="w-full md:w-1/2 mb-6 md:mb-0">
+        <div className="w-full md:w-1/2 mb-6 md:mb-0 relative">
           <ImageGallery
             items={galleryItems}
             showPlayButton={false}
-            showFullscreenButton={true}
+            showFullscreenButton={false}
             showIndex={true}
             lazyLoad={true}
             thumbnailPosition="bottom"
           />
+          <div
+            className="absolute inset-0 flex justify-center items-center pointer-events-none select-none"
+          >
+            <span
+              className="text-gray-400/40 text-4xl font-normal tracking-widest sm:text-5xl italic"
+              style={{
+                transform: "rotate(-30deg)",
+                whiteSpace: "nowrap",
+              }}
+            >
+              {"MONTERİ"}
+            </span>
+          </div>
         </div>
 
         {/* Description & Sizes */}
@@ -51,9 +94,9 @@ export default function ProductDetailPage({ params }) {
             <div className="mb-10">
               <h2 className="text-xl font-medium ">Technical Dimentions</h2>
               <h3 className="mb-2 text-center font-thin">(Width x Depth x Height)</h3>
-                {product.sizes.map((sizes, index) => (
-                  <p className="text-center mb-1" key={index}><span className="font-medium">{sizes.type}</span>: <span className="font-normal">{sizes.size}</span> cm</p>
-                ))}
+              {product.sizes.map((sizes, index) => (
+                <p className="text-center mb-1" key={index}><span className="font-medium">{sizes.type}</span>: <span className="font-normal">{sizes.size}</span> cm</p>
+              ))}
             </div>
           )}
 
