@@ -2,10 +2,10 @@
   "header": {
     "sublogo": "✨ Erstklassige Wohnräume",
     "nav": {
-      "home": "Startseite",
-      "products": "Produkte",
-      "about": "Über uns",
-      "contact": "Kontakt"
+      "home": "STARTSEITE",
+      "products": "PRODUKTE",
+      "about": "ÜBER UNS",
+      "contact": "KONTAKT"
     }
   },
   "home": {
@@ -128,6 +128,16 @@
     "product19": "Produkt 19",
     "product20": "Produkt 20"
   },
+  "product_details": {
+    "dimensions": {
+      "width": "Breite",
+      "depth": "Tiefe",
+      "height": "Höhe"
+    },
+    "inquire": "Informationen zu diesem Produkt anfragen",
+    "whatsapp_button": "Kontakt über WhatsApp",
+    "email_button": "Kontakt per E-Mail"
+  },
   "about": {
     "title": "Über uns",
     "subtitle": "Mit unseren Möbeln verwandeln wir Häuser Stück für Stück in ein Zuhause",
@@ -249,5 +259,20 @@
     "address_section": {
       "title": "Unsere Adresse"
     }
+  },
+  "footer": {
+    "about": {
+      "title": "Über Monteri",
+      "description": "Monteri widmet sich der Herstellung hochwertiger und stilvoller Möbel für moderne Wohnräume. Entdecken Sie Komfort und Eleganz mit unseren einzigartigen Designs."
+    },
+    "contact": "Kontakt",
+    "quick_links": {
+      "title": "Schnellzugriff",
+      "home": "Startseite",
+      "products": "Produkte",
+      "about": "Über uns",
+      "contact": "Kontakt"
+    },
+    "rights_reserved": "Alle Rechte vorbehalten."
   }
 }

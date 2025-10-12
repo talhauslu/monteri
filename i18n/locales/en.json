@@ -2,10 +2,10 @@
   "header": {
     "sublogo": "✨ Prime Living",
     "nav": {
-      "home": "Home",
-      "products": "Products",
-      "about": "About Us",
-      "contact": "Contact"
+      "home": "HOME",
+      "products": "PRODUCTS",
+      "about": "ABOUT US",
+      "contact": "CONTACT"
     }
   },
   "home": {
@@ -128,6 +128,16 @@
     "product19": "Product 19",
     "product20": "Product 20"
   },
+  "product_details": {
+    "dimensions": {
+      "width": "Width",
+      "depth": "Depth",
+      "height": "Height"
+    },
+    "inquire": "Inquire About This Product",
+    "whatsapp_button": "Contact via WhatsApp",
+    "email_button": "Contact via Email"
+  },
   "about": {
     "title": "About Us",
     "subtitle": "Crafting furniture that transforms houses into homes, one piece at a time",
@@ -249,5 +259,20 @@
     "address_section": {
       "title": "Our Location"
     }
+  },
+  "footer": {
+    "about": {
+      "title": "About Monteri",
+      "description": "Monteri is dedicated to crafting high-quality, stylish furnitures for modern living spaces. Discover comfort and elegance with our unique designs."
+    },
+    "contact": "Contact",
+    "quick_links": {
+      "title": "Quick Links",
+      "home": "Home",
+      "products": "Products",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "rights_reserved": "All rights reserved."
   }
 }

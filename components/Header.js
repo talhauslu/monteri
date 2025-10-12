@@ -18,9 +18,9 @@ export default function Header() {
         <a className="text-base text-white" href='tel:+90 224 715 0 532'><span>+90 224 715 0 532</span><i className='fa fa-phone ml-2'></i></a> */}
         <p className='text-white text-shadow-white italic'>{t('sublogo')}</p>
       </div>
-      <div className="w-full pl-10 pr-10 pt-10 pb-10 bg-white text-stone-950 flex flex-row justify-between items-center">
+      <div className="w-full pl-10 pr-10 pt-10 pb:6 sm:pb-10 bg-white text-stone-950 flex flex-row justify-between items-center">
         <Link href="/">
-          <div className='logo w-60 sm:w-70'>
+          <div className='logo w-45 sm:w-55'>
             <img src="/images/logo.png" alt="Logo" className="w-full h-auto select-none" />
           </div>
           {/* <div className='text-center'>

@@ -59,35 +59,35 @@ export default function HeroSlider() {
         startTimer();
     };
 
-      useEffect(() => {
-    // disable right-click
-    const handleContextMenu = (e) => e.preventDefault();
-    document.addEventListener("contextmenu", handleContextMenu);
+    useEffect(() => {
+        // disable right-click
+        const handleContextMenu = (e) => e.preventDefault();
+        document.addEventListener("contextmenu", handleContextMenu);
 
-    // disable image dragging
-    const handleDragStart = (e) => {
-      if (e.target.tagName === "IMG") e.preventDefault();
-    };
-    document.addEventListener("dragstart", handleDragStart);
+        // disable image dragging
+        const handleDragStart = (e) => {
+            if (e.target.tagName === "IMG") e.preventDefault();
+        };
+        document.addEventListener("dragstart", handleDragStart);
 
-    // optional: disable certain key combos (Ctrl+S / Ctrl+U)
-    const handleKeyDown = (e) => {
-      if (
-        (e.ctrlKey && ["s", "u", "p"].includes(e.key.toLowerCase())) ||
-        e.key === "PrintScreen"
-      ) {
-        e.preventDefault();
-      }
-    };
-    document.addEventListener("keydown", handleKeyDown);
+        // optional: disable certain key combos (Ctrl+S / Ctrl+U)
+        const handleKeyDown = (e) => {
+            if (
+                (e.ctrlKey && ["s", "u", "p"].includes(e.key.toLowerCase())) ||
+                e.key === "PrintScreen"
+            ) {
+                e.preventDefault();
+            }
+        };
+        document.addEventListener("keydown", handleKeyDown);
 
-    // cleanup on unmount
-    return () => {
-      document.removeEventListener("contextmenu", handleContextMenu);
-      document.removeEventListener("dragstart", handleDragStart);
-      document.removeEventListener("keydown", handleKeyDown);
-    };
-  }, []);
+        // cleanup on unmount
+        return () => {
+            document.removeEventListener("contextmenu", handleContextMenu);
+            document.removeEventListener("dragstart", handleDragStart);
+            document.removeEventListener("keydown", handleKeyDown);
+        };
+    }, []);
 
     return (
         <div className="hero-slider relative h-[50vh] md:h-screen overflow-hidden">
@@ -131,6 +131,18 @@ export default function HeroSlider() {
                                 priority={index === 0}
                             />
                         </Link>
+                        <div
+                            className="absolute inset-0 flex justify-center items-center pointer-events-none select-none"
+                        >
+                            <span
+                                style={{
+                                    transform: "rotate(-10deg)",
+                                    whiteSpace: "nowrap",
+                                }}
+                            >
+                                <Image src="/images/logo.png" alt="Logo" className="w-30 sm:w-60 h-auto opacity-15 select-none" width={400} height={200} />
+                            </span>
+                        </div>
                     </div>
                 ))}
             </div>

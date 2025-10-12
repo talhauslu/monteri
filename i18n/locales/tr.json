@@ -2,10 +2,10 @@
   "header": {
     "sublogo": "✨ Birinci Sınıf Yaşam Alanları",
     "nav": {
-      "home": "Ana Sayfa",
-      "products": "Ürünler",
-      "about": "Hakkımızda",
-      "contact": "İletişim"
+      "home": "ANA SAYFA",
+      "products": "ÜRÜNLER",
+      "about": "HAKKIMIZDA",
+      "contact": "İLETİŞİM"
     }
   },
   "home": {
@@ -128,6 +128,16 @@
     "product19": "Ürün 19",
     "product20": "Ürün 20"
   },
+  "product_details": {
+    "dimensions": {
+      "width": "Genişlik",
+      "depth": "Derinlik",
+      "height": "Yükseklik"
+    },
+    "inquire": "Bu Ürün Hakkında Bilgi Al",
+    "whatsapp_button": "WhatsApp ile İletişime Geç",
+    "email_button": "E-posta ile İletişime Geç"
+  },
   "about": {
     "title": "Hakkımızda",
     "subtitle": "Mobilyalarımızla evleri parça parça yuvaya dönüştürüyoruz",
@@ -249,5 +259,20 @@
     "address_section": {
       "title": "Adresimiz"
     }
+  },
+  "footer": {
+    "about": {
+      "title": "Monteri Hakkında",
+      "description": "Monteri, modern yaşam alanları için yüksek kaliteli ve şık mobilyalar üretmeye adanmıştır. Eşsiz tasarımlarımızla konforu ve zarafeti keşfedin."
+    },
+    "contact": "İletişim",
+    "quick_links": {
+      "title": "Hızlı Bağlantılar",
+      "home": "Ana Sayfa",
+      "products": "Ürünler",
+      "about": "Hakkımızda",
+      "contact": "İletişim"
+    },
+    "rights_reserved": "Tüm hakları saklıdır."
   }
 }

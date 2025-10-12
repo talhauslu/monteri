@@ -159,7 +159,10 @@
     "images": ["/images/MATRIX BOYALI/1.png", "/images/MATRIX BOYALI/2.png", "/images/MATRIX BOYALI/3.jpg", "/images/MATRIX BOYALI/4.png", "/images/MATRIX BOYALI/5.JPG", 
      "/images/MATRIX BOYALI/6.JPG", "/images/MATRIX BOYALI/7.JPG", "/images/MATRIX BOYALI/8.JPG"],
     "description": "Painted Matrix edition with deep color contrast.",
-    "sizes": ["75 x 40 x 80"]
+    "sizes": [
+      {"size": "100 x 100 x 35", "type": "Coffee Table"},
+      {"size": "50 x 50 x 55", "type": "Side Table"}
+    ]
   },
   {
     "name": "MILANO",
