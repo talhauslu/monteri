@@ -7,7 +7,7 @@ export default function Catalogs() {
             <div className="text-center max-w-3xl">
                 <h1 className='text-4xl text-logo font-bold mb-4'>Kataloglarımızı Keşfedin</h1>
                 <p className='text-lg text-logolight-800 mb-8'>
-                    En yeni koleksiyonlarımızı ve zamansız tasarımlarımızı görmek için güncel kataloğumuzu indirin. Monteri'nin ilham veren dünyasına daha yakından bakın.
+                    En yeni koleksiyonlarımızı ve zamansız tasarımlarımızı görmek için güncel kataloğumuzu indirin. Monteri&apos;nin ilham veren dünyasına daha yakından bakın.
                 </p>
                 <a
                     href={catalogUrl}
