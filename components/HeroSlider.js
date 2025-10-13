@@ -6,20 +6,20 @@ import { useState, useEffect, useRef } from 'react';
 export default function HeroSlider() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
-        '/images/COLORIUM SEHPA SET/1.png',
-        '/images/BOHO SEHPA SET/1.png',
-        '/images/EXCOTİC SEHPA SET/1.png',
-        '/images/LOTUS KAPLAMA/1.jpg',
-        '/images/LOTUS TRAVERTEN/1.png',
-        '/images/LUNA SEHPA SET/1.png',
-        '/images/MATRİX/1.png',
-        '/images/MONO/1.png',
-        '/images/OSLO/1.jpg',
-        '/images/PIETRA SEHPA SETİ/1.jpg',
-        '/images/ROYAL/1.png',
-        '/images/TRAVE/1.jpg',
-        '/images/TRİO SET/1.png',
-        '/images/VERONA/1.png'
+        '/images/COLORIUM SEHPA SET/10.webp',
+        '/images/BOHO SEHPA SET/8.JPG',
+        '/images/EXCOTİC SEHPA SET/6.jpeg',
+        '/images/LOTUS KAPLAMA/6.jpg',
+        '/images/LOTUS TRAVERTEN/9.jpg',
+        '/images/LUNA SEHPA SET/11.JPG',
+        '/images/MATRİX/7.JPG',
+        '/images/MONO/5.JPG',
+        '/images/OSLO/10.JPG',
+        '/images/PIETRA SEHPA SETİ/15.jpg',
+        '/images/ROYAL/3.JPG',
+        '/images/TRAVE/8.JPG',
+        '/images/TRİO SET/12.JPG',
+        '/images/VERONA/11.JPG'
     ];
     const products = [
         'COLORIUM',

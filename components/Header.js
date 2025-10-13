@@ -61,7 +61,7 @@ export default function Header() {
 
       {/* Mobile menu, hidden by default, slide in with transition */}
       <div className={`pt-2 lg:hidden absolute w-full bg-white text-logo z-10 overflow-hidden transition-max-height duration-750 ease-linear ${isMenuOpen ? 'max-h-96' : 'max-h-0'}`}>
-        <ul className="flex flex-col text-lg text-center space-y-4 pt-4 pb-4">
+        <ul className="flex flex-col text-logolight-800 text-md text-center space-y-4 pt-4 pb-4">
           <li>
             <Link href="/" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.home')}</Link>
           </li>
