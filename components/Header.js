@@ -41,19 +41,23 @@ export default function Header() {
         <div className="hidden lg:flex justify-center">
           <ul className="flex text-lg font-medium">
             <li>
-              <Link href="/" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-4 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.home')}</Link>
+              <Link href="/" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.home')}</Link>
             </li>
             <span className="text-gray-300 select-none">|</span>
             <li>
-              <Link href="/products" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-4 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.products')}</Link>
+              <Link href="/products" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.products')}</Link>
             </li>
             <span className="text-gray-300 select-none">|</span>
             <li>
-              <Link href="/about" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-4 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.about')}</Link>
+              <Link href="/about" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.about')}</Link>
             </li>
             <span className="text-gray-300 select-none">|</span>
             <li>
-              <Link href="/contact" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-4 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.contact')}</Link>
+              <Link href="/contact" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.contact')}</Link>
+            </li>
+            <span className="text-gray-300 select-none">|</span>
+            <li>
+              <a href="https://gympouf.com/" target="_blank" rel="noopener noreferrer" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">GYMPOUF</a>
             </li>
           </ul>
         </div>
@@ -73,6 +77,9 @@ export default function Header() {
           </li>
           <li>
             <Link href="/contact" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.contact')}</Link>
+          </li>
+          <li>
+            <a href="https://gympouf.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>GYMPOUF</a>
           </li>
         </ul>
       </div>
