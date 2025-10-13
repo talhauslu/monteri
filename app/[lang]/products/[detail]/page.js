@@ -82,14 +82,14 @@ export default function ProductDetailPage({ params }) {
           </div>
         </div>
 
-        {/* Description & Sizes */}
+        {/* Right Section */}
         <div className="w-full md:w-1/2 flex flex-col justify-center items-center">
 
           {/* Title */}
-          <h1 className="text-3xl md:text-4xl font-semibold text-center mb-6">{product.name}</h1>
+          <h1 className="text-3xl text-logo md:text-4xl font-semibold text-center mb-6">{product.name}</h1>
 
           {/* Description */}
-          <p className="text-gray-700 text-lg mb-6 italic text-center">{product.description}</p>
+          <p className="text-logolight-800 text-lg mb-6 italic text-center">{product.description}</p>
 
           {/* Sizes */}
           {product.sizes && product.sizes.length > 0 && (
@@ -101,11 +101,11 @@ export default function ProductDetailPage({ params }) {
                 return (
                   <div
                     key={index}
-                    className="flex items-center border-2 border-gray-500 rounded-lg max-w-2xl mx-auto"
+                    className="flex items-center border-2 border-logolight-600 rounded-lg max-w-2xl mx-auto"
                   >
                     {/* Left Vertical Label */}
                     <div
-                      className="bg-gray-700 text-white font-light text-sm tracking-wider px-2 py-2 rounded-lg -ml-4 -my-4"
+                      className="bg-logolight-600 text-white font-light text-sm tracking-wider px-2 py-2 rounded-lg -ml-4 -my-4"
                       style={{
                         writingMode: "vertical-rl",
                         transform: "rotate(180deg)",
@@ -144,7 +144,7 @@ export default function ProductDetailPage({ params }) {
 
           {/* Contact*/}
           <div className="mt-6 flex flex-col items-center gap-4">
-            <h2 className="text-xl font-medium mb-2">{t("inquire")}</h2>
+            <h2 className="text-xl text-logo font-medium mb-2">{t("inquire")}</h2>
             <a href={`https://wa.me/905425629933?text=I'm%20interested%20in%20the%20${product.name}%20product.`} target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
             >

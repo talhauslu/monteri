@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl"
 export default function Footer() {
   const t = useTranslations("footer");
   return (
-    <footer className="w-full p-4 bg-stone-950 text-white mt-8">
+    <footer className="w-full p-4 bg-logolight-700 text-white mt-8">
       <div className="flex flex-col md:flex-row justify-between mb-8 gap-8">
         {/* Left: About */}
         <div className="flex-1 p-6 flex items-center flex-col">

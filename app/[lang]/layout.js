@@ -5,10 +5,13 @@ import {routing} from '@/i18n/routing';
 import {notFound} from 'next/navigation';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import Header2 from '@/components/Header2';
 import LanguagePicker from '@/components/LanguagePicker';
 import Image from 'next/image';
 import "react-image-gallery/styles/css/image-gallery.css";
+import { Playfair_Display } from 'next/font/google'
+
+const playfair = Playfair_Display({ subsets: ['latin'] })
+
 
 
 export default async function RootLayout({ children, params }) {
@@ -27,7 +30,7 @@ export default async function RootLayout({ children, params }) {
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
       </head>
-      <body suppressHydrationWarning={true}>
+      <body className={playfair.className} suppressHydrationWarning={true}>
         <NextIntlClientProvider messages={messages}>
           <Header />
           {children}

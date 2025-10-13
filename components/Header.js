@@ -13,12 +13,12 @@ export default function Header() {
 
   return (
     <div>
-      <div className="w-full pr-3 pl-3 pb-2 pt-2 flex justify-center items-center bg-stone-950 md:pr-4 md:pl-4 sm:pr-2 sm:pl-2">
+      <div className="w-full pr-3 pl-3 pb-2 pt-2 flex justify-center items-center bg-logolight-700 md:pr-4 md:pl-4 sm:pr-2 sm:pl-2">
         {/* <a className="text-base text-white" href='mailto:info@monteri.tr'><i className='fa fa-envelope-o mr-2'></i><span>info@monteri.tr</span></a>
         <a className="text-base text-white" href='tel:+90 224 715 0 532'><span>+90 224 715 0 532</span><i className='fa fa-phone ml-2'></i></a> */}
         <p className='text-white text-shadow-white italic'>{t('sublogo')}</p>
       </div>
-      <div className="w-full pl-10 pr-10 pt-10 pb:6 sm:pb-10 bg-white text-stone-950 flex flex-row justify-between items-center">
+      <div className="w-full pl-10 pr-10 pt-10 pb:6 sm:pb-10 bg-white text-logo flex flex-row justify-between items-center">
         <Link href="/">
           <div className='logo w-45 sm:w-55'>
             <img src="/images/logo.png" alt="Logo" className="w-full h-auto select-none" />
@@ -60,7 +60,7 @@ export default function Header() {
       </div>
 
       {/* Mobile menu, hidden by default, slide in with transition */}
-      <div className={`lg:hidden absolute w-full bg-white text-stone-950 z-10 overflow-hidden transition-max-height duration-750 ease-linear ${isMenuOpen ? 'max-h-96' : 'max-h-0'}`}>
+      <div className={`lg:hidden absolute w-full bg-white text-logo z-10 overflow-hidden transition-max-height duration-750 ease-linear ${isMenuOpen ? 'max-h-96' : 'max-h-0'}`}>
         <ul className="flex flex-col text-lg text-center font-bold space-y-4 pt-4 pb-4">
           <li>
             <Link href="/" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.home')}</Link>

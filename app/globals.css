@@ -1,5 +1,27 @@
 @import "tailwindcss";
 
+@theme {
+  --color-logo: #232A1E;
+  --color-logolight-900: #353E2E;
+  --color-logolight-800: #485440;
+  --color-logolight-700: #5D6954;
+  --color-logolight-600: #727E68;
+  --color-logolight-500: #87947E;
+  --color-logolight-400: #9EA996;
+  --color-logolight-300: #B5BFAE;
+  --color-logolight-200: #CDD4C8;
+  --color-logolight-100: #E6EAE3;
+  --color-logodark-100: #1F251A;
+  --color-logodark-200: #1B2117;
+  --color-logodark-300: #181D14;
+  --color-logodark-400: #141811;
+  --color-logodark-500: #11140E;
+  --color-logodark-600: #0E100C;
+  --color-logodark-700: #0A0C09;
+  --color-logodark-800: #070806;
+  --color-logodark-900: #030403;
+}
+
 @keyframes fadeIn {
   to {
     opacity: 1;
