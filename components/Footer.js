@@ -23,6 +23,9 @@ export default function Footer() {
           <p className="mb-1">
             <a href="mailto:info@monteri.com" className="hover:underline">info@monteri.com</a>
           </p>
+          <p className="mb-1">
+            <a href="tel:+90 224 715 0 532" className="hover:underline">+90 224 715 0 532</a>
+          </p>
           <div className="flex space-x-3 mt-2">
             <a href="https://www.facebook.com/monterisofas/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <i className="fa fa-facebook-official fa hover:text-blue-500" aria-hidden="true"></i>
