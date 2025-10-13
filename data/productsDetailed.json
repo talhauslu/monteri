@@ -13,7 +13,7 @@
   {
     "name": "BOHO",
     "slug": "boho",
-    "images": ["/images/BOHO SEHPA SET/1.png", "/images/BOHO SEHPA SET/2.png", "/images/BOHO SEHPA SET/3.jpg", "/images/BOHO SEHPA SET/4.JPG",
+    "images": ["/images/BOHO SEHPA SET/4.JPG",
      "/images/BOHO SEHPA SET/5.JPG", "/images/BOHO SEHPA SET/6.JPG", "/images/BOHO SEHPA SET/7.JPG", "/images/BOHO SEHPA SET/8.JPG", "/images/BOHO SEHPA SET/9.JPG",
      "/images/BOHO SEHPA SET/10.JPG", "/images/BOHO SEHPA SET/11.JPG", "/images/BOHO SEHPA SET/12.JPG"],
     "description": "Bohemian-inspired table set with natural wood tones.",
@@ -36,7 +36,7 @@
   {
     "name": "COLORIUM",
     "slug": "colorium",
-    "images": ["/images/COLORIUM SEHPA SET/1.png", "/images/COLORIUM SEHPA SET/2.png", "/images/COLORIUM SEHPA SET/3.png", "/images/COLORIUM SEHPA SET/4.png",
+    "images": [
      "/images/COLORIUM SEHPA SET/5.webp", "/images/COLORIUM SEHPA SET/6.webp", "/images/COLORIUM SEHPA SET/7.webp", "/images/COLORIUM SEHPA SET/8.webp",
      "/images/COLORIUM SEHPA SET/9.webp", "/images/COLORIUM SEHPA SET/10.webp", "/images/COLORIUM SEHPA SET/11.webp", "/images/COLORIUM SEHPA SET/12.webp"],
     "description": "Vibrant color options with elegant curved legs.",
@@ -49,8 +49,7 @@
   {
     "name": "EXCOTIC",
     "slug": "excotic",
-    "images": ["/images/EXCOTİC SEHPA SET/1.png", "/images/EXCOTİC SEHPA SET/2.png", "/images/EXCOTİC SEHPA SET/3.png", "EXCOTİC SEHPA SET/4.png",
-     "/images/EXCOTİC SEHPA SET/5.png", "/images/EXCOTİC SEHPA SET/6.jpeg", "/images/EXCOTİC SEHPA SET/7.jpeg", "/images/EXCOTİC SEHPA SET/8.jpeg",
+    "images": ["/images/EXCOTİC SEHPA SET/6.jpeg", "/images/EXCOTİC SEHPA SET/7.jpeg", "/images/EXCOTİC SEHPA SET/8.jpeg",
      "/images/EXCOTİC SEHPA SET/9.jpeg", "/images/EXCOTİC SEHPA SET/10.jpeg", "/images/EXCOTİC SEHPA SET/11.jpeg"],
     "description": "Unique exotic design that stands out in any room.",
     "sizes": [
@@ -62,7 +61,7 @@
   {
     "name": "HARMONY",
     "slug": "harmony",
-    "images": ["/images/HARMONY/1.png", "/images/HARMONY/2.png", "/images/HARMONY/3.png", "/images/HARMONY/4.png", "/images/HARMONY/5.JPG", "/images/HARMONY/6.JPG",
+    "images": ["/images/HARMONY/5.JPG", "/images/HARMONY/6.JPG",
      "/images/HARMONY/7.JPG", "/images/HARMONY/8.JPG", "/images/HARMONY/9.JPG"],
     "description": "A perfect balance of modern and classic aesthetics.",
     "sizes": [
@@ -94,7 +93,7 @@
   {
     "name": "LOTUS V2",
     "slug": "lotus-v2",
-    "images": ["/images/LOTUS KAPLAMA/1.jpg", "/images/LOTUS KAPLAMA/2.png", "/images/LOTUS KAPLAMA/3.png", "/images/LOTUS KAPLAMA/4.png", "/images/LOTUS KAPLAMA/5.jpg",
+    "images": [
      "/images/LOTUS KAPLAMA/6.jpg",    "/images/LOTUS KAPLAMA/7.jpg", "/images/LOTUS KAPLAMA/8.jpg", "/images/LOTUS KAPLAMA/9.jpg", "/images/LOTUS KAPLAMA/10.jpg", 
      "/images/LOTUS KAPLAMA/11.jpg", "/images/LOTUS KAPLAMA/12.jpg", "/images/LOTUS KAPLAMA/13.jpg", "/images/LOTUS KAPLAMA/14.jpg", "/images/LOTUS KAPLAMA/15.jpg"],
     "description": "Wood veneer version of the Lotus series with premium finish.",
@@ -107,8 +106,7 @@
   {
     "name": "LOTUS V3",
     "slug": "lotus-v3",
-    "images": ["/images/LOTUS TRAVERTEN/1.png", "/images/LOTUS TRAVERTEN/2.png", "/images/LOTUS TRAVERTEN/3.png", "/images/LOTUS TRAVERTEN/4.jpg",
-     "/images/LOTUS TRAVERTEN/5.jpg", "/images/LOTUS TRAVERTEN/6.jpg", "/images/LOTUS TRAVERTEN/7.jpg", "/images/LOTUS TRAVERTEN/8.jpg", "/images/LOTUS TRAVERTEN/9.jpg", "/images/LOTUS TRAVERTEN/10.jpg"
+    "images": ["/images/LOTUS TRAVERTEN/8.jpg", "/images/LOTUS TRAVERTEN/9.jpg", "/images/LOTUS TRAVERTEN/10.jpg"
      , "/images/LOTUS TRAVERTEN/11.jpg", "/images/LOTUS TRAVERTEN/12.jpg", "/images/LOTUS TRAVERTEN/13.jpg", "/images/LOTUS TRAVERTEN/14.jpg", "/images/LOTUS TRAVERTEN/15.jpg", "/images/LOTUS TRAVERTEN/16.jpg", "/images/LOTUS TRAVERTEN/17.jpg"],
     "description": "Travertine-style design for a natural stone aesthetic.",
     "sizes": [
@@ -120,8 +118,7 @@
   {
     "name": "LUNA V1",
     "slug": "luna-v1",
-    "images": ["/images/LUNA BOYALI SEHPA SET/1.png", "/images/LUNA BOYALI SEHPA SET/2.jpg", "/images/LUNA BOYALI SEHPA SET/3.jpg", "/images/LUNA BOYALI SEHPA SET/4.jpg",
-     "/images/LUNA BOYALI SEHPA SET/5.jpg", "/images/LUNA BOYALI SEHPA SET/6.jpg", "/images/LUNA BOYALI SEHPA SET/7.jpg", "/images/LUNA BOYALI SEHPA SET/8.jpg",
+    "images": ["/images/LUNA BOYALI SEHPA SET/6.jpg", "/images/LUNA BOYALI SEHPA SET/7.jpg", "/images/LUNA BOYALI SEHPA SET/8.jpg",
      "/images/LUNA BOYALI SEHPA SET/9.jpg", "/images/LUNA BOYALI SEHPA SET/10.jpg", "/images/LUNA BOYALI SEHPA SET/11.jpg", "/images/LUNA BOYALI SEHPA SET/12.jpg", "/images/LUNA BOYALI SEHPA SET/13.jpg", "/images/LUNA BOYALI SEHPA SET/14.jpg"],
     "description": "Painted Luna series with modern round edges.",
     "sizes": [
@@ -133,7 +130,7 @@
   {
     "name": "LUNA V2",
     "slug": "luna-v2",
-    "images": ["/images/LUNA SEHPA SET/1.png", "/images/LUNA SEHPA SET/2.png", "/images/LUNA SEHPA SET/3.png", "/images/LUNA SEHPA SET/4.JPG", "/images/LUNA SEHPA SET/5.JPG",
+    "images": ["/images/LUNA SEHPA SET/4.JPG", "/images/LUNA SEHPA SET/5.JPG",
      "/images/LUNA SEHPA SET/6.JPG", "/images/LUNA SEHPA SET/7.JPG", "/images/LUNA SEHPA SET/8.JPG", "/images/LUNA SEHPA SET/9.JPG", "/images/LUNA SEHPA SET/10.JPG",
      "/images/LUNA SEHPA SET/11.JPG", "/images/LUNA SEHPA SET/12.JPG"],
     "description": "Natural version of Luna with light wood tones.",
@@ -146,7 +143,7 @@
   {
     "name": "MATRIX V1",
     "slug": "matrix-v1",
-    "images": ["/images/MATRİX/1.png", "/images/MATRİX/2.png", "/images/MATRİX/3.png", "/images/MATRİX/4.JPG", "/images/MATRİX/5.JPG", "/images/MATRİX/6.JPG", "/images/MATRİX/7.JPG", "/images/MATRİX/8.JPG", "/images/MATRİX/9.JPG"],
+    "images": ["/images/MATRİX/4.JPG", "/images/MATRİX/5.JPG", "/images/MATRİX/6.JPG", "/images/MATRİX/7.JPG", "/images/MATRİX/8.JPG", "/images/MATRİX/9.JPG"],
     "description": "Matte-finish coffee table with sharp geometric lines.",
     "sizes": [
       {"size": "100 x 100 x 35", "type": "Coffee Table"},
@@ -156,7 +153,7 @@
   {
     "name": "MATRIX V2",
     "slug": "matrix-v2",
-    "images": ["/images/MATRIX BOYALI/1.png", "/images/MATRIX BOYALI/2.png", "/images/MATRIX BOYALI/3.jpg", "/images/MATRIX BOYALI/4.png", "/images/MATRIX BOYALI/5.JPG", 
+    "images": ["/images/MATRIX BOYALI/5.JPG", 
      "/images/MATRIX BOYALI/6.JPG", "/images/MATRIX BOYALI/7.JPG", "/images/MATRIX BOYALI/8.JPG"],
     "description": "Painted Matrix edition with deep color contrast.",
     "sizes": [
@@ -167,7 +164,7 @@
   {
     "name": "MILANO",
     "slug": "milano",
-    "images": ["/images/MİLANO/1.jpg", "/images/MİLANO/2.jpg", "/images/MİLANO/3.jpg", "/images/MİLANO/4.JPG", "/images/MİLANO/5.JPG", "/images/MİLANO/6.JPG", "/images/MİLANO/7.JPG", "/images/MİLANO/8.JPG",
+    "images": ["/images/MİLANO/4.JPG", "/images/MİLANO/5.JPG", "/images/MİLANO/6.JPG", "/images/MİLANO/7.JPG", "/images/MİLANO/8.JPG",
      "/images/MİLANO/9.JPG", "/images/MİLANO/10.JPG", "/images/MİLANO/11.JPG"],
     "description": "Italian-inspired minimalism with a sleek profile.",
     "sizes": [
@@ -179,7 +176,7 @@
   {
     "name": "MONO",
     "slug": "mono",
-    "images": ["/images/MONO/1.png", "/images/MONO/2.png", "/images/MONO/3.png", "/images/MONO/4.png", "/images/MONO/5.JPG", "/images/MONO/6.JPG", "/images/MONO/7.JPG", "/images/MONO/8.JPG"],
+    "images": ["/images/MONO/5.JPG", "/images/MONO/6.JPG", "/images/MONO/7.JPG", "/images/MONO/8.JPG"],
     "description": "Single-tone coffee table with a contemporary design.",
     "sizes": [
       {"size": "80 x 80 x 40", "type": "Coffee Table"},
@@ -189,7 +186,7 @@
   {
     "name": "OSLO",
     "slug": "oslo",
-    "images": ["/images/OSLO/1.jpg", "/images/OSLO/2.jpg", "/images/OSLO/3.jpg", "/images/OSLO/4.jpg", "/images/OSLO/5.jpg", "/images/OSLO/6.JPG", "/images/OSLO/7.JPG", "/images/OSLO/8.JPG", "/images/OSLO/9.JPG", "/images/OSLO/10.JPG"],
+    "images": ["/images/OSLO/6.JPG", "/images/OSLO/7.JPG", "/images/OSLO/8.JPG", "/images/OSLO/9.JPG", "/images/OSLO/10.JPG"],
     "description": "Nordic-style coffee table emphasizing simplicity.",
     "sizes": [
       {"size": "45 x 45 x 49", "type": "Nesting Table"},
@@ -200,7 +197,7 @@
   {
     "name": "PIETRA",
     "slug": "pietra",
-    "images": ["/images/PIETRA SEHPA SETİ/1.jpg", "/images/PIETRA SEHPA SETİ/2.jpg", "/images/PIETRA SEHPA SETİ/3.jpg", "/images/PIETRA SEHPA SETİ/4.jpg", "/images/PIETRA SEHPA SETİ/5.png", "/images/PIETRA SEHPA SETİ/6.png", "/images/PIETRA SEHPA SETİ/7.JPG", "/images/PIETRA SEHPA SETİ/8.JPG",
+    "images": ["/images/PIETRA SEHPA SETİ/7.JPG", "/images/PIETRA SEHPA SETİ/8.JPG",
      "/images/PIETRA SEHPA SETİ/9.JPG", "/images/PIETRA SEHPA SETİ/10.JPG", "/images/PIETRA SEHPA SETİ/11.JPG", "/images/PIETRA SEHPA SETİ/12.JPG", "/images/PIETRA SEHPA SETİ/13.jpg",
      "/images/PIETRA SEHPA SETİ/14.jpg", "/images/PIETRA SEHPA SETİ/15.jpg", "/images/PIETRA SEHPA SETİ/16.jpg", "/images/PIETRA SEHPA SETİ/17.jpg", "/images/PIETRA SEHPA SETİ/18.jpg"],
     "description": "Stone-textured set offering natural beauty and durability.",
@@ -224,7 +221,7 @@
   {
     "name": "ROYAL",
     "slug": "royal",
-    "images": ["/images/ROYAL/1.png", "/images/ROYAL/2.png", "/images/ROYAL/3.JPG", "/images/ROYAL/4.JPG", "/images/ROYAL/5.JPG", "/images/ROYAL/6.JPG"],
+    "images": ["/images/ROYAL/3.JPG", "/images/ROYAL/4.JPG", "/images/ROYAL/5.JPG", "/images/ROYAL/6.JPG"],
     "description": "Elegant golden frame table that adds sophistication.",
     "sizes": [
       {"size": "50 x 37 x 55", "type": "Nesting Table"},
@@ -245,7 +242,7 @@
   {
     "name": "TRAVE",
     "slug": "trave",
-    "images": ["/images/TRAVE/1.jpg", "/images/TRAVE/2.jpg", "/images/TRAVE/3.jpg", "/images/TRAVE/4.JPG", "/images/TRAVE/5.JPG", "/images/TRAVE/6.JPG", "/images/TRAVE/7.JPG", "/images/TRAVE/8.JPG"],
+    "images": ["/images/TRAVE/4.JPG", "/images/TRAVE/5.JPG", "/images/TRAVE/6.JPG", "/images/TRAVE/7.JPG", "/images/TRAVE/8.JPG"],
     "description": "Modern industrial style with bold wooden elements.",
     "sizes": [
       {"size": "50 x 50 x 58", "type": "Nesting Table"},
@@ -256,7 +253,7 @@
   {
     "name": "TRIO",
     "slug": "trio",
-    "images": ["/images/TRİO SET/1.png", "/images/TRİO SET/2.png", "/images/TRİO SET/3.png", "/images/TRİO SET/4.png", "/images/TRİO SET/5.png", "/images/TRİO SET/6.JPG", "/images/TRİO SET/7.JPG", "/images/TRİO SET/8.JPG", "/images/TRİO SET/9.JPG", "/images/TRİO SET/10.JPG",
+    "images": ["/images/TRİO SET/6.JPG", "/images/TRİO SET/7.JPG", "/images/TRİO SET/8.JPG", "/images/TRİO SET/9.JPG", "/images/TRİO SET/10.JPG",
      "/images/TRİO SET/11.JPG", "/images/TRİO SET/12.JPG", "/images/TRİO SET/13.JPG"],
     "description": "Triple set design allowing flexible combinations.",
     "sizes": [
@@ -268,7 +265,7 @@
   {
     "name": "TUMBA",
     "slug": "tumba",
-    "images": ["/images/TUMBA/1.jpg", "/images/TUMBA/2.jpg", "/images/TUMBA/3.jpg", "/images/TUMBA/4.png", "/images/TUMBA/5.jpg", "/images/TUMBA/6.JPG", "/images/TUMBA/7.JPG", "/images/TUMBA/8.JPG", "/images/TUMBA/9.JPG", "/images/TUMBA/10.JPG"],
+    "images": ["/images/TUMBA/6.JPG", "/images/TUMBA/7.JPG", "/images/TUMBA/8.JPG", "/images/TUMBA/9.JPG", "/images/TUMBA/10.JPG"],
     "description": "Compact round table with a timeless aesthetic.",
     "sizes": [
       {"size": "90 x 90 x 42", "type": "Coffee Table"},
@@ -278,7 +275,7 @@
   {
     "name": "VENUS",
     "slug": "venus",
-    "images": ["/images/VENUS SEHPA/1.jpg", "/images/VENUS SEHPA/2.webp", "/images/VENUS SEHPA/3.jpeg", "/images/VENUS SEHPA/4.jpeg", "/images/VENUS SEHPA/5.jpeg", "/images/VENUS SEHPA/6.jpeg", "/images/VENUS SEHPA/7.jpeg", "/images/VENUS SEHPA/8.jpeg", "/images/VENUS SEHPA/9.jpeg", "/images/VENUS SEHPA/10.jpeg", "/images/VENUS SEHPA/11.jpeg"],
+    "images": ["/images/VENUS SEHPA/1.jpg", "/images/VENUS SEHPA/2.webp", "/images/VENUS SEHPA/3.jpeg", "/images/VENUS SEHPA/4.jpeg", "/images/VENUS SEHPA/5.jpeg", "/images/VENUS SEHPA/6.jpeg", "/images/VENUS SEHPA/7.jpeg", "/images/VENUS SEHPA/8.jpeg", "/images/VENUS SEHPA/9.jpeg"],
     "description": "Venetian-inspired design with intricate detailing.",
     "sizes": [
       {"size": "120 x 65 x 30", "type": ""}
@@ -287,7 +284,7 @@
   {
     "name": "VERONA",
     "slug": "verona",
-    "images": ["/images/VERONA/1.png", "/images/VERONA/2.png", "/images/VERONA/3.jpg", "/images/VERONA/4.png", "/images/VERONA/5.png", "/images/VERONA/6.jpeg", "/images/VERONA/7.JPG", "/images/VERONA/8.jpeg", "/images/VERONA/9.JPG",
+    "images": ["/images/VERONA/6.jpeg", "/images/VERONA/7.JPG", "/images/VERONA/8.jpeg", "/images/VERONA/9.JPG",
      "/images/VERONA/10.jpeg", "/images/VERONA/11.JPG", "/images/VERONA/12.JPG", "/images/VERONA/13.JPG", "/images/VERONA/14.JPG"],
     "description": "Classic design with a modern twist for versatile use.",
     "sizes": [

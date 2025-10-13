@@ -5,6 +5,9 @@ import { useEffect } from "react";
 import productsData from "@/data/productsDetailed.json";
 import ImageGallery from "react-image-gallery";
 import Image from "next/image";
+import { Rubik } from 'next/font/google'
+
+const rubik = Rubik({ subsets: ['latin'] })
 
 import "react-image-gallery/styles/css/image-gallery.css";
 import { useTranslations } from "next-intl";
@@ -115,24 +118,24 @@ export default function ProductDetailPage({ params }) {
                     </div>
 
                     {/* Dimensions Section */}
-                    <div className="flex flex-1 justify-around items-center pl-6 pr-2">
+                    <div className="flex flex-1 justify-around items-center pl-7 pr-3">
                       <div className="text-center">
                         <div className="text-lg font-light mb-1">{t("dimensions.width")}</div>
-                        <div className="text-xl font-light">{width} CM</div>
+                        <div className="text-xl font-light"><span className={rubik.className}>{width}</span> CM</div>
                       </div>
 
                       <hr className="rotate-90 w-10" />
 
                       <div className="text-center">
                         <div className="text-lg font-light mb-1">{t("dimensions.depth")}</div>
-                        <div className="text-xl font-light">{depth} CM</div>
+                        <div className="text-xl font-light"><span className={rubik.className}>{depth}</span> CM</div>
                       </div>
 
                       <hr className="rotate-90 w-10" />
 
                       <div className="text-center">
                         <div className="text-lg font-light mb-1">{t("dimensions.height")}</div>
-                        <div className="text-xl font-light">{height} CM</div>
+                        <div className="text-xl font-light"><span className={rubik.className}>{height}</span> CM</div>
                       </div>
                     </div>
                   </div>
