@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 
@@ -21,7 +22,13 @@ export default function Header() {
       <div className="w-full pl-10 pr-10 pt-10 pb:6 sm:pb-10 bg-white text-logo flex flex-row justify-between items-center">
         <Link href="/">
           <div className='logo w-45 sm:w-55'>
-            <img src="/images/logo.png" alt="Logo" className="w-full h-auto select-none" />
+            <Image
+              src="/images/logo.png"
+              alt="Logo"
+              width={1067}
+              height={348}
+              className="w-full h-auto select-none"
+            />
           </div>
           {/* <div className='text-center'>
             <h1 className="text-6xl font-bold">Monteri</h1>

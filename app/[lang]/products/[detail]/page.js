@@ -19,39 +19,64 @@ export default function ProductDetailPage({ params }) {
     thumbnail: img
   }));
 
-  useEffect(() => {
-    // disable right-click
-    const handleContextMenu = (e) => e.preventDefault();
-    document.addEventListener("contextmenu", handleContextMenu);
+useEffect(() => {
+    // disable right-click (Safari için daha güçlü)
+    const handleContextMenu = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        return false;
+    };
+    
+    // Her yerde dinle
+    document.addEventListener("contextmenu", handleContextMenu, true);
+    window.addEventListener("contextmenu", handleContextMenu, true);
 
     // disable image dragging
     const handleDragStart = (e) => {
-      if (e.target.tagName === "IMG") e.preventDefault();
+        if (e.target.tagName === "IMG") {
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+        }
     };
-    document.addEventListener("dragstart", handleDragStart);
+    document.addEventListener("dragstart", handleDragStart, true);
 
-    // optional: disable certain key combos (Ctrl+S / Ctrl+U)
-    const handleKeyDown = (e) => {
-      if (
-        (e.ctrlKey && ["s", "u", "p"].includes(e.key.toLowerCase())) ||
-        e.key === "PrintScreen"
-      ) {
-        e.preventDefault();
-      }
+    // Touch events için (Safari iOS) - SADECE resimler için
+    const handleTouchStart = (e) => {
+        if (e.target.tagName === "IMG") {
+            // Long press'i engelle ama normal touch'a izin ver
+            const timer = setTimeout(() => {
+                e.preventDefault();
+            }, 500);
+            
+            const clearTimer = () => clearTimeout(timer);
+            e.target.addEventListener("touchend", clearTimer, { once: true });
+            e.target.addEventListener("touchmove", clearTimer, { once: true });
+        }
     };
-    document.addEventListener("keydown", handleKeyDown);
+    document.addEventListener("touchstart", handleTouchStart, { passive: false });
+
+    // optional: disable certain key combos
+    const handleKeyDown = (e) => {
+        if (
+            (e.ctrlKey && ["s", "u", "p"].includes(e.key.toLowerCase())) ||
+            (e.metaKey && ["s", "u", "p"].includes(e.key.toLowerCase())) ||
+            e.key === "PrintScreen"
+        ) {
+            e.preventDefault();
+        }
+    };
+    document.addEventListener("keydown", handleKeyDown, true);
 
     // cleanup on unmount
     return () => {
-      document.removeEventListener("contextmenu", handleContextMenu);
-      document.removeEventListener("dragstart", handleDragStart);
-      document.removeEventListener("keydown", handleKeyDown);
+        document.removeEventListener("contextmenu", handleContextMenu, true);
+        window.removeEventListener("contextmenu", handleContextMenu, true);
+        document.removeEventListener("dragstart", handleDragStart, true);
+        document.removeEventListener("touchstart", handleTouchStart);
+        document.removeEventListener("keydown", handleKeyDown, true);
     };
-  }, []);
-
-  if (!product) {
-    notFound();
-  }
+}, []);
 
   return (
     <div className="bg-white p-4 md:p-8">
