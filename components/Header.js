@@ -85,16 +85,22 @@ export default function Header() {
             <Link href="/" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.home')}</Link>
           </li>
           <li>
+            <Link href="/about" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.about')}</Link>
+          </li>
+          <li>
             <Link href="/products" className="hover:opacity-50 transition-opacity duration-300 font-" onClick={toggleMenu}>{t('nav.products')}</Link>
           </li>
           <li>
-            <Link href="/about" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.about')}</Link>
+            <a href="https://gympouf.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>GYMPOUF</a>
           </li>
           <li>
             <Link href="/contact" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.contact')}</Link>
           </li>
           <li>
-            <a href="https://gympouf.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>GYMPOUF</a>
+            <Link href="/catalogs" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>KATALOG</Link>
+          </li>
+          <li>
+            <Link href="/bayilik" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>BAYİLİK</Link>
           </li>
         </ul>
       </div>

@@ -44,9 +44,12 @@ export default function Footer() {
           <hr className="mb-2 w-1/3" />
           <ul className="text-center">
             <li className="mb-1 text-sm"><Link href="/" className="hover:underline"> {t('quick_links.home')}</Link></li>
-            <li className="mb-1 text-sm"><Link href="/products" className="hover:underline"> {t('quick_links.products')}</Link></li>
             <li className="mb-1 text-sm"><Link href="/about" className="hover:underline"> {t('quick_links.about')}</Link></li>
+            <li className="mb-1 text-sm"><Link href="/products" className="hover:underline"> {t('quick_links.products')}</Link></li>
+            <li className="mb-1 text-sm"><a href="https://gympouf.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">GYMPOUF</a></li>
             <li className="mb-1 text-sm"><Link href="/contact" className="hover:underline"> {t('quick_links.contact')}</Link></li>
+            <li className="mb-1 text-sm"><Link href="/catalogs" className="hover:underline">KATALOG</Link></li>
+            <li className="mb-1 text-sm"><Link href="/bayilik" className="hover:underline">BAYİLİK</Link></li>
           </ul>
         </div>
 
