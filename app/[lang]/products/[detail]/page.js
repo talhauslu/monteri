@@ -5,9 +5,6 @@ import { useEffect } from "react";
 import productsData from "@/data/productsDetailed.json";
 import ImageGallery from "react-image-gallery";
 import Image from "next/image";
-import { Rubik } from 'next/font/google'
-
-const rubik = Rubik({ subsets: ['latin'] })
 
 import "react-image-gallery/styles/css/image-gallery.css";
 import { useTranslations } from "next-intl";
@@ -89,10 +86,10 @@ export default function ProductDetailPage({ params }) {
         <div className="w-full md:w-1/2 flex flex-col justify-center items-center">
 
           {/* Title */}
-          <h1 className="text-3xl text-logo md:text-4xl font-semibold text-center mb-6">{product.name}</h1>
+          <h1 className="text-2xl text-logo md:text-4xl font-semibold text-center mb-6">{product.name}</h1>
 
           {/* Description */}
-          <p className="text-logolight-800 text-lg mb-6 italic text-center">{product.description}</p>
+          <p className="text-logolight-800 text-md mb-6 italic text-center">{product.description}</p>
 
           {/* Sizes */}
           {product.sizes && product.sizes.length > 0 && (
@@ -120,22 +117,22 @@ export default function ProductDetailPage({ params }) {
                     {/* Dimensions Section */}
                     <div className="flex flex-1 justify-around items-center pl-7 pr-3">
                       <div className="text-center">
-                        <div className="text-lg font-light mb-1">{t("dimensions.width")}</div>
-                        <div className="text-xl font-light"><span className={rubik.className}>{width}</span> CM</div>
+                        <div className="text-md font-light mb-1">{t("dimensions.width")}</div>
+                        <div className="text-lg font-light">{width} CM</div>
                       </div>
 
                       <hr className="rotate-90 w-10" />
 
                       <div className="text-center">
-                        <div className="text-lg font-light mb-1">{t("dimensions.depth")}</div>
-                        <div className="text-xl font-light"><span className={rubik.className}>{depth}</span> CM</div>
+                        <div className="text-md font-light mb-1">{t("dimensions.depth")}</div>
+                        <div className="text-lg font-light">{depth} CM</div>
                       </div>
 
                       <hr className="rotate-90 w-10" />
 
                       <div className="text-center">
-                        <div className="text-lg font-light mb-1">{t("dimensions.height")}</div>
-                        <div className="text-xl font-light"><span className={rubik.className}>{height}</span> CM</div>
+                        <div className="text-md font-light mb-1">{t("dimensions.height")}</div>
+                        <div className="text-lg font-light">{height} CM</div>
                       </div>
                     </div>
                   </div>
@@ -147,7 +144,7 @@ export default function ProductDetailPage({ params }) {
 
           {/* Contact*/}
           <div className="mt-6 flex flex-col items-center gap-4">
-            <h2 className="text-xl text-logo font-medium mb-2">{t("inquire")}</h2>
+            <h2 className="text-lg text-logo font-medium mb-2">{t("inquire")}</h2>
             <a href={`https://wa.me/905425629933?text=I'm%20interested%20in%20the%20${product.name}%20product.`} target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
             >

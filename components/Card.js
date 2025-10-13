@@ -62,7 +62,7 @@ export default function ProductCard({ img, name }) {
           background: 'linear-gradient(to bottom, rgba(0,0,0,.75) 0%, rgba(0,0,0,0) 95%)'
         }}
       >
-        <h2 className="text-3xl font-semibold text-white drop-shadow-logo drop-shadow-sm">{name}</h2>
+        <h2 className="text-2xl font-semibold text-white drop-shadow-logo drop-shadow-sm">{name}</h2>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <div>
             <div className='w-full flex flex-col items-center gap-8 p-16'>
-                <h1 className='text-4xl text-logo font-bold'>{t('title')}</h1>
+                <h1 className='text-3xl text-logo font-bold'>{t('title')}</h1>
                 <p className='max-w-2xl text-logolight-900 text-center'>{t('subtitle')}</p>
                 <div className="flex flex-row justify-center w-auto gap-4 flex-wrap whitespace-nowrap">
                     <a href="tel:+90 224 715 0 532" className='flex flex-col items-center gap-4 w-48'>
@@ -48,7 +48,7 @@ export default function Contact() {
             <div className="w-full flex justify-center items-center p-4 mb-6">
                 <div className="w-full md:w-4/5 flex flex-col md:flex-row justify-center p-4 bg-white shadow-lg border overflow-hidden">
                     <div id="contact-form" className="w-full md:w-1/2 p-4">
-                        <h2 className="text-3xl font-bold text-logo">{t('form.title')}</h2>
+                        <h2 className="text-2xl font-bold text-logo">{t('form.title')}</h2>
                         <form className="w-full max-w-lg bg-white p-8 rounded-lg">
                             <div className="mb-4">
                                 <label className="block text-logolight-700 text-sm font-bold mb-2" htmlFor="name">

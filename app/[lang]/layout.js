@@ -8,11 +8,9 @@ import Header from '@/components/Header';
 import LanguagePicker from '@/components/LanguagePicker';
 import Image from 'next/image';
 import "react-image-gallery/styles/css/image-gallery.css";
-import { Playfair_Display } from 'next/font/google'
+import { Inter } from 'next/font/google'
 
-const playfair = Playfair_Display({ subsets: ['latin'] })
-
-
+const inter = Inter({ subsets: ['latin'] })
 
 export default async function RootLayout({ children, params }) {
   const { lang } = await params;
@@ -30,7 +28,7 @@ export default async function RootLayout({ children, params }) {
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
       </head>
-      <body className={playfair.className} suppressHydrationWarning={true}>
+      <body className={inter.className} suppressHydrationWarning={true}>
         <NextIntlClientProvider messages={messages}>
           <Header />
           {children}

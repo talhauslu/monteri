@@ -39,7 +39,7 @@ export default function Header() {
 
         {/* Regular menu for desktop */}
         <div className="hidden lg:flex justify-center">
-          <ul className="flex text-2xl font-medium">
+          <ul className="flex text-lg font-medium">
             <li>
               <Link href="/" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-4 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.home')}</Link>
             </li>

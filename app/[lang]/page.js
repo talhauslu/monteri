@@ -20,10 +20,10 @@ export default function HomePage() {
         <section className="py-16 px-4 bg-gradient-to-b from-white to-logolight-300">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-4xl md:text-5xl font-bold text-logo mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-logo mb-6">
                 {t('main_value_section.title_first_part')} <span className="text-logolight-800">{t('main_value_section.title_second_part')}</span>
               </h2>
-              <p className="text-xl text-logolight-800 max-w-3xl mx-auto leading-relaxed">
+              <p className="text-lg text-logolight-800 max-w-3xl mx-auto leading-relaxed">
                 {t('main_value_section.subtitle')}
               </p>
             </div>
@@ -33,7 +33,7 @@ export default function HomePage() {
                 <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:shadow-xl transition-shadow">
                   <i className="fa fa-paint-brush fa-2x" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-xl text-logo font-semibold mb-2">{t('main_value_section.values.craftsmanship.title')}</h3>
+                <h3 className="text-lg text-logo font-semibold mb-2">{t('main_value_section.values.craftsmanship.title')}</h3>
                 <p className="text-logolight-800">{t('main_value_section.values.craftsmanship.description')}</p>
               </div>
 
@@ -41,7 +41,7 @@ export default function HomePage() {
                 <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:shadow-xl transition-shadow">
                   <i className="fa fa-truck fa-2x" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-xl text-logo font-semibold mb-2">{t('main_value_section.values.shipping.title')}</h3>
+                <h3 className="text-lg text-logo font-semibold mb-2">{t('main_value_section.values.shipping.title')}</h3>
                 <p className="text-logolight-800">{t('main_value_section.values.shipping.description')}</p>
               </div>
 
@@ -49,7 +49,7 @@ export default function HomePage() {
                 <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:shadow-xl transition-shadow">
                   <i className="fa fa-diamond fa-2x" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-xl text-logo font-semibold mb-2">{t('main_value_section.values.quality.title')}</h3>
+                <h3 className="text-lg text-logo font-semibold mb-2">{t('main_value_section.values.quality.title')}</h3>
                 <p className="text-logolight-800">{t('main_value_section.values.quality.description')}</p>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function HomePage() {
         <section className="py-16 px-4 bg-white">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-logo mb-4">{t('featured_products_section.title')}</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-logo mb-4">{t('featured_products_section.title')}</h2>
               <p className="text-lg text-logolight-700">{t('featured_products_section.subtitle')}</p>
             </div>
 
@@ -80,7 +80,7 @@ export default function HomePage() {
                       className="object-cover rounded-xl w-full h-full"
                     />
                   </div>
-                  <h3 className="text-xl text-center font-bold mb-2 text-logo">{product.name}</h3>
+                  <h3 className="text-lg text-center font-bold mb-2 text-logo">{product.name}</h3>
                   <p className="text-logolight-700 text-center">{product.desc}</p>
                 </div>
               ))}
@@ -101,7 +101,7 @@ export default function HomePage() {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-logo mb-6">{t('why_choose_us_section.title')}</h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-logo mb-6">{t('why_choose_us_section.title')}</h2>
                 <div className="space-y-4">
                   {[
                     { text: t('why_choose_us_section.points.check1') },
@@ -122,17 +122,17 @@ export default function HomePage() {
               <div className="bg-gradient-to-br from-logolight-200 to-logolight-100 p-8 rounded-2xl">
                 <div className="text-center">
                   {/* <div className="text-6xl mb-4">🏆</div> */}
-                  <h3 className="text-2xl font-bold text-logo mb-4">{t('why_choose_us_section.side_title')}</h3>
+                  <h3 className="text-xl font-bold text-logo mb-4">{t('why_choose_us_section.side_title')}</h3>
                   <p className="text-logolight-800 mb-6">
                     {t('why_choose_us_section.side_description')}
                   </p>
                   <div className="grid grid-cols-2 gap-4 text-center">
                     <div className="bg-white p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-logolight-700">100%</div>
+                      <div className="text-xl font-bold text-logolight-700">100%</div>
                       <div className="text-sm text-logolight-700">{t('why_choose_us_section.side_stats.quality_tested')}</div>
                     </div>
                     <div className="bg-white p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-logolight-700">5+</div>
+                      <div className="text-xl font-bold text-logolight-700">5+</div>
                       <div className="text-sm text-logolight-700">{t('why_choose_us_section.side_stats.countries_served')}</div>
                     </div>
                   </div>
@@ -146,8 +146,8 @@ export default function HomePage() {
         <section className="py-16 px-4 bg-white">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-logo mb-4">{t('shipping_services_section.title')}</h2>
-              <p className="text-lg text-logolight-700">{t('shipping_services_section.description')}</p>
+              <h2 className="text-2xl md:text-3xl font-bold text-logo mb-4">{t('shipping_services_section.title')}</h2>
+              <p className="text-md text-logolight-700">{t('shipping_services_section.description')}</p>
             </div>
 
             <div className="grid md:grid-cols-4 gap-8">
@@ -189,14 +189,14 @@ export default function HomePage() {
         {/* Customer Testimonials Preview */}
         <section className="py-16 px-4 bg-gradient-to-b from-logolight-700 to-logolight-100 text-white">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-8">{t('testimonials_section.title')}</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8">{t('testimonials_section.title')}</h2>
             <div className="bg-black/10 backdrop-blur-sm rounded-xl p-8">
               <div className="flex justify-center mb-4">
                 {[...Array(5)].map((_, i) => (
                   <i key={i} className="fa fa-star fa-2x text-yellow-500" aria-hidden="true"></i>
                 ))}
               </div>
-              <blockquote className="text-xl italic mb-4">
+              <blockquote className="text-lg italic mb-4">
                 &quot;{t('testimonials_section.feedback')}&quot;
               </blockquote>
               <div className="text-logo font-semibold">— Oğuz P.</div>
@@ -212,8 +212,8 @@ export default function HomePage() {
         {/* Call to Action */}
         <section className="py-16 px-4 bg-white">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-logo mb-6">{t('call_to_action_section.title')}</h2>
-            <p className="text-xl text-logolight-700 mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-logo mb-6">{t('call_to_action_section.title')}</h2>
+            <p className="text-lg text-logolight-700 mb-8">
               {t('call_to_action_section.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

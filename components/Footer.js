@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row justify-between mb-8 gap-8">
         {/* Left: About */}
         <div className="flex-1 p-6 flex items-center flex-col">
-          <h3 className="text-lg font-semibold mb-2"> {t('about.title')}</h3>
+          <h3 className="text-md font-semibold mb-2"> {t('about.title')}</h3>
           <hr className="mb-2 w-1/3" />
           <p className="text-sm text-center pl-6 pr-6">
              {t('about.description')}
@@ -16,15 +16,15 @@ export default function Footer() {
         </div>
         {/* Center: Contact-Info */}
         <div className="flex-1 p-6 flex items-center flex-col">
-          <h3 className="text-lg font-semibold mb-2"> {t('contact')}</h3>
+          <h3 className="text-md font-semibold mb-2"> {t('contact')}</h3>
           <hr className="mb-2 w-1/3" />
-          <p className="">Mahmudiye Mahallesi, Özlem Sokak No:3</p>
-          <p className="mb-2">Bursa/İnegöl 16400</p>
+          <p className="text-sm">Mahmudiye Mahallesi, Özlem Sokak No:3</p>
+          <p className="mb-2 text-sm">Bursa/İnegöl 16400</p>
           <p className="mb-1">
-            <a href="mailto:info@monteri.com" className="hover:underline">info@monteri.com</a>
+            <a href="mailto:info@monteri.com" className="hover:underline text-sm">info@monteri.com</a>
           </p>
           <p className="mb-1">
-            <a href="tel:+90 224 715 0 532" className="hover:underline">+90 224 715 0 532</a>
+            <a href="tel:+90 224 715 0 532" className="hover:underline text-sm">+90 224 715 0 532</a>
           </p>
           <div className="flex space-x-3 mt-2">
             <a href="https://www.facebook.com/monterisofas/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
@@ -40,19 +40,19 @@ export default function Footer() {
         </div>
         {/* Right: Quick-Links */}
         <div className="flex-1 p-6 flex items-center flex-col">
-          <h3 className="text-lg font-semibold mb-2"> {t('quick_links.title')}</h3>
+          <h3 className="text-md font-semibold mb-2"> {t('quick_links.title')}</h3>
           <hr className="mb-2 w-1/3" />
           <ul className="text-center">
-            <li className="mb-1"><Link href="/" className="hover:underline"> {t('quick_links.home')}</Link></li>
-            <li className="mb-1"><Link href="/products" className="hover:underline"> {t('quick_links.products')}</Link></li>
-            <li className="mb-1"><Link href="/about" className="hover:underline"> {t('quick_links.about')}</Link></li>
-            <li className="mb-1"><Link href="/contact" className="hover:underline"> {t('quick_links.contact')}</Link></li>
+            <li className="mb-1 text-sm"><Link href="/" className="hover:underline"> {t('quick_links.home')}</Link></li>
+            <li className="mb-1 text-sm"><Link href="/products" className="hover:underline"> {t('quick_links.products')}</Link></li>
+            <li className="mb-1 text-sm"><Link href="/about" className="hover:underline"> {t('quick_links.about')}</Link></li>
+            <li className="mb-1 text-sm"><Link href="/contact" className="hover:underline"> {t('quick_links.contact')}</Link></li>
           </ul>
         </div>
 
       </div>
-      <p className="text-center text-md font-medium mb-2">&copy; {new Date().getFullYear()} Monteri. {t('rights_reserved')}</p>
-      <p className="text-center text-xs font-thin mt-2">Designed and Developed by <a target="_blank" href="https://github.com/talhauslu">Talha Uslu</a></p>
+      <p className="text-center text-sm font-medium mb-2">&copy; {new Date().getFullYear()} Monteri. {t('rights_reserved')}</p>
+      <p className="text-center text-[0.60rem] font-thin mt-2">Designed and Developed by <a target="_blank" href="https://github.com/talhauslu">Talha Uslu</a></p>
     </footer>
   );
 }
