@@ -46,13 +46,9 @@ export default function Header() {
 
         {/* Regular menu for desktop */}
         <div className="hidden lg:flex justify-center">
-          <ul className="flex text-lg font-medium">
+          <ul className="flex text-sm font-medium">
             <li>
               <Link href="/" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.home')}</Link>
-            </li>
-            <span className="text-gray-300 select-none">|</span>
-            <li>
-              <Link href="/products" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.products')}</Link>
             </li>
             <span className="text-gray-300 select-none">|</span>
             <li>
@@ -60,11 +56,23 @@ export default function Header() {
             </li>
             <span className="text-gray-300 select-none">|</span>
             <li>
-              <Link href="/contact" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.contact')}</Link>
+              <Link href="/products" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.products')}</Link>
             </li>
             <span className="text-gray-300 select-none">|</span>
             <li>
               <a href="https://gympouf.com/" target="_blank" rel="noopener noreferrer" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">GYMPOUF</a>
+            </li>
+            <span className="text-gray-300 select-none">|</span>
+            <li>
+              <Link href="/contact" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.contact')}</Link>
+            </li>
+            <span className="text-gray-300 select-none">|</span>
+            <li>
+              <Link href="/catalogs" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">KATALOG</Link>
+            </li>
+            <span className="text-gray-300 select-none">|</span>
+            <li>
+              <Link href="/bayilik" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">BAYİLİK</Link>
             </li>
           </ul>
         </div>
