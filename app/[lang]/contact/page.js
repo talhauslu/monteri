@@ -1,7 +1,34 @@
+"use client";
 import { useTranslations } from "next-intl"
+import { useRef } from "react"
+import emailjs from "emailjs-com";
+
 
 export default function Contact() {
     const t = useTranslations("contact")
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(
+                "service_caqysyj",   // senin EmailJS service ID
+                "template_v58udna",  // senin EmailJS template ID
+                form.current,
+                "_M4xsORGfCzGjVNAd"  // senin EmailJS public key’in
+            )
+            .then(
+                () => {
+                    alert("✅ Başarıyla gönderildi!");
+                    e.target.reset();
+                },
+                (error) => {
+                    console.error("EmailJS error:", error);
+                    alert("❌ Gönderim sırasında bir hata oluştu, lütfen tekrar dene.");
+                }
+            );
+    };
     return (
         <div>
             <div className='w-full flex flex-col items-center gap-8 p-16'>
@@ -49,25 +76,25 @@ export default function Contact() {
                 <div className="w-full md:w-4/5 flex flex-col md:flex-row justify-center p-4 bg-white shadow-lg border overflow-hidden">
                     <div id="contact-form" className="w-full md:w-1/2 p-4">
                         <h2 className="text-2xl font-bold text-logo">{t('form.title')}</h2>
-                        <form className="w-full max-w-lg bg-white p-8 rounded-lg">
+                        <form ref={form} onSubmit={sendEmail} className="w-full max-w-lg bg-white p-8 rounded-lg">
                             <div className="mb-4">
                                 <label className="block text-logolight-700 text-sm font-bold mb-2" htmlFor="name">
                                     {t('form.name')}
                                 </label>
-                                <input className="shadow appearance-none border rounded w-full py-2 px-3 text-logolight-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your Name" />
+                                <input name="name" className="shadow appearance-none border rounded w-full py-2 px-3 text-logolight-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your Name" />
                             </div>
                             <div className="mb-4">
                                 <label className="block text-logolight-700 text-sm font-bold mb-2" htmlFor="email">
                                     {t('form.email')}
                                 </label>
-                                <input className="shadow appearance-none border rounded w-full py-2 px-3 text-logolight-700 leading-tight focus:outline-none focus:shadow-outline"
+                                <input name="email" className="shadow appearance-none border rounded w-full py-2 px-3 text-logolight-700 leading-tight focus:outline-none focus:shadow-outline"
                                     id="email" type="email" placeholder="Your Email" />
                             </div>
                             <div className="mb-4">
                                 <label className="block text-logolight-700 text-sm font-bold mb-2" htmlFor="message">
                                     {t('form.message')}
                                 </label>
-                                <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-logolight-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="5" placeholder="Your Message"></textarea>
+                                <textarea name="message" className="shadow appearance-none border rounded w-full py-2 px-3 text-logolight-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="5" placeholder="Your Message"></textarea>
                             </div>
                             <div className="flex items-center justify-between">
                                 <button className="bg-logolight-900 hover:bg-logolight-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
@@ -80,8 +107,8 @@ export default function Contact() {
                         <p>{t('address_section.title')}:</p>
                         <div className="mb-4">
                             <a target="_blank"
-                            href="https://www.google.com/maps/place/Mahmudiye,+%C3%96zlem+Sk.+No:3,+16400+%C4%B0neg%C3%B6l%2FBursa/@40.0761209,29.5244964,17z/data=!3m1!4b1!4m6!3m5!1s0x14cbc9423c1c73e5:0xf16c89d01e4efd5a!8m2!3d40.0761209!4d29.5270767!16s%2Fg%2F11cscmw76q?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D" 
-                            className="text-sm text-logolight-700 mb-2">Mahmudiye Mahallesi, Özlem Sokak No:3, Inegol 16400</a>
+                                href="https://www.google.com/maps/place/Mahmudiye,+%C3%96zlem+Sk.+No:3,+16400+%C4%B0neg%C3%B6l%2FBursa/@40.0761209,29.5244964,17z/data=!3m1!4b1!4m6!3m5!1s0x14cbc9423c1c73e5:0xf16c89d01e4efd5a!8m2!3d40.0761209!4d29.5270767!16s%2Fg%2F11cscmw76q?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D"
+                                className="text-sm text-logolight-700 mb-2">Mahmudiye Mahallesi, Özlem Sokak No:3, Inegol 16400</a>
                         </div>
                         <iframe
                             src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Mahmudiye%20Mahallesi,%20%C3%96zlem%20Sokak%20No:3,%20Inegol%2016400+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
