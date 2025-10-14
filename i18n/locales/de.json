@@ -5,7 +5,9 @@
       "home": "STARTSEITE",
       "products": "PRODUKTE",
       "about": "ÜBER UNS",
-      "contact": "KONTAKT"
+      "contact": "KONTAKT",
+      "catalogs": "KATALOGE",
+      "bayilikler": "HÄNDLER"
     }
   },
   "home": {
@@ -260,6 +262,26 @@
       "title": "Unsere Adresse"
     }
   },
+  "catalogs": {
+    "title": "Entdecken Sie unsere Kataloge",
+    "subtitle": "Sehen Sie sich unsere neuesten Kollektionen und zeitlosen Designs an. Werfen Sie einen genaueren Blick auf die inspirierende Welt von Monteri.",
+    "buton": "Katalog ansehen"
+  },
+  "bayilikler": {
+    "title": "Händlerformular",
+    "subtitle": "Um eine Händleranfrage zu stellen, füllen Sie bitte das Kundenformular aus. Nach Prüfung Ihrer Bewerbung werden wir Sie so bald wie möglich kontaktieren und gemeinsam die nächsten Schritte für unsere Zusammenarbeit unternehmen.",
+    "form": {
+      "name": "Vorname",
+      "lastname": "Nachname",
+      "email": "E-Mail",
+      "phone": "Telefonnummer",
+      "unvan": "Firmenname",
+      "m2": "Geschäftsfläche (m²)",
+      "address": "Adresse",
+      "message": "Ihre Nachricht",
+      "submit": "Bewerbung absenden"
+    }
+  },
   "footer": {
     "about": {
       "title": "Über Monteri",
@@ -271,7 +293,9 @@
       "home": "Startseite",
       "products": "Produkte",
       "about": "Über uns",
-      "contact": "Kontakt"
+      "contact": "Kontakt",
+      "catalogs": "Kataloge",
+      "bayilikler": "Händler"
     },
     "rights_reserved": "Alle Rechte vorbehalten."
   }

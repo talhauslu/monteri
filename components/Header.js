@@ -64,15 +64,15 @@ export default function Header() {
             </li>
             <span className="text-gray-300 select-none">|</span>
             <li>
+              <Link href="/catalogs" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.catalogs')}</Link>
+            </li>
+            <span className="text-gray-300 select-none">|</span>
+            <li>
+              <Link href="/bayilik" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.bayilikler')}</Link>
+            </li>
+            <span className="text-gray-300 select-none">|</span>
+            <li>
               <Link href="/contact" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">{t('nav.contact')}</Link>
-            </li>
-            <span className="text-gray-300 select-none">|</span>
-            <li>
-              <Link href="/catalogs" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">KATALOG</Link>
-            </li>
-            <span className="text-gray-300 select-none">|</span>
-            <li>
-              <Link href="/bayilik" className="transition-all transform duration-400 ease-in-out rounded-full mx-2 px-2 py-2 hover:bg-black/10 hover:opacity-70">BAYİLİK</Link>
             </li>
           </ul>
         </div>
@@ -94,13 +94,13 @@ export default function Header() {
             <a href="https://gympouf.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>GYMPOUF</a>
           </li>
           <li>
+            <Link href="/catalogs" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.catalogs')}</Link>
+          </li>
+          <li>
+            <Link href="/bayilik" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.bayilikler')}</Link>
+          </li>
+          <li>
             <Link href="/contact" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>{t('nav.contact')}</Link>
-          </li>
-          <li>
-            <Link href="/catalogs" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>KATALOG</Link>
-          </li>
-          <li>
-            <Link href="/bayilik" className="hover:opacity-50 transition-opacity duration-300" onClick={toggleMenu}>BAYİLİK</Link>
           </li>
         </ul>
       </div>

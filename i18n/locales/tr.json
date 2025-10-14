@@ -5,7 +5,9 @@
       "home": "ANA SAYFA",
       "products": "ÜRÜNLER",
       "about": "HAKKIMIZDA",
-      "contact": "İLETİŞİM"
+      "contact": "İLETİŞİM",
+      "catalogs": "KATALOG",
+      "bayilikler": "BAYİLİK"
     }
   },
   "home": {
@@ -260,6 +262,26 @@
       "title": "Adresimiz"
     }
   },
+  "catalogs": {
+    "title": "Kataloglarımızı Keşfedin",
+    "subtitle": "En yeni koleksiyonlarımızı ve zamansız tasarımlarımızı görmek için güncel kataloğumuzu görüntüleyin. Monteri'nin ilham veren dünyasına daha yakından bakın.",
+    "buton": "Kataloğu Görüntüle"
+  },
+  "bayilikler": {
+    "title": "Bayilik Formu",
+    "subtitle": "Bayilik başvurusu yapmak için lütfen müşteri formunu doldurun. Başvurunuzu inceledikten sonra en kısa sürede sizinle iletişime geçeceğiz ve işbirliğimiz için gerekli adımları birlikte atacağız",
+    "form": {
+      "name": "Adınız",
+      "lastname": "Soyadınız",
+      "email": "E-posta",
+      "phone": "Telefon Numaranız",
+      "unvan": "Firma Ünvanı",
+      "m2": "Mağaza Metrekaresi",
+      "address": "Adres",
+      "message": "Mesajınız",
+      "submit": "Başvuruyu Gönder"
+    }
+  },
   "footer": {
     "about": {
       "title": "Monteri Hakkında",
@@ -271,7 +293,9 @@
       "home": "Ana Sayfa",
       "products": "Ürünler",
       "about": "Hakkımızda",
-      "contact": "İletişim"
+      "contact": "İletişim",
+      "catalogs": "Katalog",
+      "bayilikler": "Bayilik"
     },
     "rights_reserved": "Tüm hakları saklıdır."
   }

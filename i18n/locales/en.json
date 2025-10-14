@@ -5,7 +5,9 @@
       "home": "HOME",
       "products": "PRODUCTS",
       "about": "ABOUT US",
-      "contact": "CONTACT"
+      "contact": "CONTACT",
+      "catalogs": "CATALOGS",
+      "bayilikler": "DEALERSHIP"
     }
   },
   "home": {
@@ -260,6 +262,26 @@
       "title": "Our Location"
     }
   },
+  "catalogs": {
+    "title": "Explore Our Catalogs",
+    "subtitle": "View our latest collections and timeless designs. Take a closer look at Monteri’s inspiring world.",
+    "buton": "View Catalog"
+  },
+  "bayilikler": {
+    "title": "Dealership Form",
+    "subtitle": "To apply for a dealership, please fill out the customer form. After reviewing your application, we will contact you as soon as possible and take the necessary steps for our cooperation together.",
+    "form": {
+      "name": "First Name",
+      "lastname": "Last Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "unvan": "Company Name",
+      "m2": "Store Size (m²)",
+      "address": "Address",
+      "message": "Your Message",
+      "submit": "Submit Application"
+    }
+  },
   "footer": {
     "about": {
       "title": "About Monteri",
@@ -271,7 +293,9 @@
       "home": "Home",
       "products": "Products",
       "about": "About",
-      "contact": "Contact"
+      "contact": "Contact",
+      "catalogs": "Catalog",
+      "bayilikler": "Dealership"
     },
     "rights_reserved": "All rights reserved."
   }
