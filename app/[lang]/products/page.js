@@ -1,6 +1,6 @@
 import ProductCard from "@/components/Card";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import products from "@/data/products.json";
 
 export default function Products() {
