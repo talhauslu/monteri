@@ -295,7 +295,7 @@
   {
     "name": "PARIS",
     "slug": "paris",
-    "images": ["/images/PARIS/1.JPG", "/images/PARIS/2.JPG", "/images/PARIS/3.JPG", "/images/PARIS/4.JPG", "/images/PARIS/5.JPG", "/images/PARIS/6.JPG", "/images/PARIS/7.JPG"],
+    "images": ["/images/PARIS/1.jpg", "/images/PARIS/2.jpg", "/images/PARIS/3.jpg", "/images/PARIS/4.jpg", "/images/PARIS/5.jpg", "/images/PARIS/6.jpg", "/images/PARIS/7.jpg"],
     "description": "Modern design with a touch of elegance.",
     "sizes": [
       {"size": "116 x 72 x 38", "type": "Coffee Table"},
