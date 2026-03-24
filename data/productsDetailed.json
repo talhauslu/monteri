@@ -11,6 +11,17 @@
     ]
   },
   {
+    "name": "BLOK",
+    "slug": "blok",
+    "images": ["/images/BLOK SEHPA/1.jpg", "/images/BLOK SEHPA/2.jpg", "/images/BLOK SEHPA/3.jpg", "/images/BLOK SEHPA/4.jpg",
+     "/images/BLOK SEHPA/5.jpg", "/images/BLOK SEHPA/6.jpg", "/images/BLOK SEHPA/7.jpg", "/images/BLOK SEHPA/8.jpg"],
+    "description": "Block-style coffee & TV table with a bold geometric design.",
+    "sizes": [
+      {"size": "90 x 90 x 40", "type": "Coffee Table"},
+      {"size": "180 x 45 x 40", "type": "TV Table"}
+    ]
+  },
+  {
     "name": "BOHO",
     "slug": "boho",
     "images": ["/images/BOHO SEHPA SET/4.JPG",
@@ -47,6 +58,39 @@
     ]
   },
   {
+    "name": "CORNER",
+    "slug": "corner",
+    "images": ["/images/CORNER YAN SEHPA SET/1.jpg", "/images/CORNER YAN SEHPA SET/2.jpg", "/images/CORNER YAN SEHPA SET/3.jpg", "/images/CORNER YAN SEHPA SET/4.jpg"
+     , "/images/CORNER YAN SEHPA SET/5.jpg", "/images/CORNER YAN SEHPA SET/6.jpg", "/images/CORNER YAN SEHPA SET/7.jpg"],
+    "description": "Unique corner design that maximizes space efficiency.",
+    "sizes": [
+      {"size": "50 x 45 x 40", "type": "Side Table"},
+      {"size": "33 x 30 x 50", "type": "Side Table"}
+    ]
+  },
+  {
+    "name": "ECLIPSE",
+    "slug": "eclipse",
+    "images": ["/images/ECLIPSE/1.jpg", "/images/ECLIPSE/2.jpg", "/images/ECLIPSE/3.jpg", "/images/ECLIPSE/4.jpg",
+     "/images/ECLIPSE/5.jpg", "/images/ECLIPSE/6.jpg", "/images/ECLIPSE/7.jpg", "/images/ECLIPSE/8.jpg"],
+    "description": "Sleek round design with a glossy finish for a modern look.",
+    "sizes": [
+      {"size": "135 x 85 x 33", "type": "Coffee Table"},
+      {"size": "50 x 50 x 48", "type": "Side Table"}
+    ]
+  },
+  {
+    "name": "EPICURE",
+    "slug": "epicure",
+    "images": ["/images/EPICURE/1.jpg", "/images/EPICURE/2.jpg", "/images/EPICURE/3.jpg", "/images/EPICURE/4.jpg", "/images/EPICURE/5.jpg",
+     "/images/EPICURE/6.jpg", "/images/EPICURE/7.jpg", "/images/EPICURE/8.jpg", "/images/EPICURE/9.jpg", "/images/EPICURE/10.jpg", "/images/EPICURE/11.jpg"],
+    "description": "Elegant design with a blend of classic and contemporary elements.",
+    "sizes": [
+      {"size": "125 x 85 x 35", "type": "Coffee Table"},
+      {"size": "50 x 43 x 50", "type": "Side Table"}
+    ]
+  },
+  {
     "name": "EXCOTIC",
     "slug": "excotic",
     "images": ["/images/EXCOTİC SEHPA SET/6.jpeg", "/images/EXCOTİC SEHPA SET/7.jpeg", "/images/EXCOTİC SEHPA SET/8.jpeg",
@@ -77,6 +121,15 @@
     "description": "Elegant marble-top coffee table with metallic details.",
     "sizes": [
       {"size": "120 x 70 x 33", "type": ""}
+    ]
+  },
+  {
+    "name": "LINEA",
+    "slug": "linea",
+    "images": ["/images/LINEA SEHPA/1.jpg", "/images/LINEA SEHPA/2.jpg", "/images/LINEA SEHPA/3.jpg", "/images/LINEA SEHPA/4.jpg", "/images/LINEA SEHPA/5.jpg"],
+    "description": "Linear design with a minimalist approach, perfect for modern spaces.",
+    "sizes": [
+      {"size": "93 x 93 x 40", "type": "Coffee Table"}
     ]
   },
   {
@@ -141,6 +194,17 @@
     ]
   },
   {
+    "name": "MADRID",
+    "slug": "madrid",
+    "images": ["/images/MADRID ZIGON/1.jpg", "/images/MADRID ZIGON/2.jpg", "/images/MADRID ZIGON/3.jpg", "/images/MADRID ZIGON/4.jpg"],
+    "description": "Combining rich walnut texture with modern glass transparency in a conical form.",
+    "sizes": [
+      {"size": "43 x 43 x 47", "type": "Nesting Table"},
+      {"size": "43 x 43 x 52", "type": "Nesting Table"},
+      {"size": "43 x 43 x 57", "type": "Nesting Table"}
+    ]
+  },
+  {
     "name": "MATRIX V1",
     "slug": "matrix-v1",
     "images": ["/images/MATRİX/4.JPG", "/images/MATRİX/5.JPG", "/images/MATRİX/6.JPG", "/images/MATRİX/7.JPG", "/images/MATRİX/8.JPG", "/images/MATRİX/9.JPG"],
@@ -159,6 +223,16 @@
     "sizes": [
       {"size": "100 x 100 x 35", "type": "Coffee Table"},
       {"size": "50 x 50 x 55", "type": "Side Table"}
+    ]
+  },
+  {
+    "name": "MILAN",
+    "slug": "milan",
+    "images": ["/images/MILAN/1.png", "/images/MILAN/2.jpg", "/images/MILAN/3.jpg", "/images/MILAN/4.png", "/images/MILAN/5.png", "/images/MILAN/6.jpg"],
+    "description": "Combining a natural walnut top with the architectural presence of black-painted oak legs.",
+    "sizes": [
+      {"size": "90 x 90 x 32", "type": "Coffee Table"},
+      {"size": "50 x 40 x 45", "type": "Side Table"}
     ]
   },
   {
@@ -184,6 +258,30 @@
     ]
   },
   {
+    "name": "ORBTY",
+    "slug": "orbty",
+    "images": ["/images/ORBTY SEHPA/1.jpg", "/images/ORBTY SEHPA/2.jpg", "/images/ORBTY SEHPA/3.jpg", "/images/ORBTY SEHPA/4.jpg", "/images/ORBTY SEHPA/5.jpg",
+     "/images/ORBTY SEHPA/6.jpg", "/images/ORBTY SEHPA/7.jpg", "/images/ORBTY SEHPA/8.jpg", "/images/ORBTY SEHPA/9.jpg"],
+    "description": "A sculptural coffee table set that blends the serene power of soft curves with a modern.",
+    "sizes": [
+      {"size": "60 x 60 x 33", "type": "X Large"},
+      {"size": "45 x 45 x 38", "type": "Large"},
+      {"size": "35 x 35 x 26", "type": "Medium"}
+    ]
+  },
+  {
+    "name": "ORION",
+    "slug": "orion",
+    "images": ["/images/ORION SEHPA SET/1.jpg", "/images/ORION SEHPA SET/2.webp", "/images/ORION SEHPA SET/3.webp", "/images/ORION SEHPA SET/4.webp", "/images/ORION SEHPA SET/5.webp", "/images/ORION SEHPA SET/6.jpg",
+     "/images/ORION SEHPA SET/7.webp", "/images/ORION SEHPA SET/8.webp", "/images/ORION SEHPA SET/9.webp", "/images/ORION SEHPA SET/10.webp", "/images/ORION SEHPA SET/11.jpg", "/images/ORION SEHPA SET/12.jpg", "/images/ORION SEHPA SET/13.webp"],
+    "description": "A modern take on the classic coffee table with a sleek design.",
+    "sizes": [
+      {"size": "75 x 75 x 34", "type": "Coffee Table"},
+      {"size": "55 x 55 x 45", "type": "Side Table"},
+      {"size": "45 x 45 x 48", "type": "Side Table"}
+    ]
+  },
+  {
     "name": "OSLO",
     "slug": "oslo",
     "images": ["/images/OSLO/6.JPG", "/images/OSLO/7.JPG", "/images/OSLO/8.JPG", "/images/OSLO/9.JPG", "/images/OSLO/10.JPG"],
@@ -192,6 +290,16 @@
       {"size": "45 x 45 x 49", "type": "Nesting Table"},
       {"size": "45 x 45 x 54", "type": "Nesting Table"},
       {"size": "45 x 45 x 59", "type": "Nesting Table"}
+    ]
+  },
+  {
+    "name": "PARIS",
+    "slug": "paris",
+    "images": ["/images/PARIS/1.JPG", "/images/PARIS/2.JPG", "/images/PARIS/3.JPG", "/images/PARIS/4.JPG", "/images/PARIS/5.JPG", "/images/PARIS/6.JPG", "/images/PARIS/7.JPG"],
+    "description": "Modern design with a touch of elegance.",
+    "sizes": [
+      {"size": "116 x 72 x 38", "type": "Coffee Table"},
+      {"size": "48 x 48 x 49", "type": "Side Table"}
     ]
   },
   {
@@ -209,6 +317,17 @@
     ]
   },
   {
+    "name": "PIETRA WOOD",
+    "slug": "pietra-wood",
+    "images": ["/images/PIETRA AHSAP SET/1.jpg", "/images/PIETRA AHSAP SET/2.jpg", "/images/PIETRA AHSAP SET/3.jpg", "/images/PIETRA AHSAP SET/4.jpg", "/images/PIETRA AHSAP SET/5.jpg"],
+    "description": "Luxurious design inspired by classic architecture.",
+    "sizes": [
+      {"size": "90 x 90 x 45", "type": "Coffee Table"},
+      {"size": "60 x 60 x 42", "type": "Side Table"},
+      {"size": "60 x 60 x 42", "type": "Pouf"}
+    ]
+  },
+  {
     "name": "RAMSES",
     "slug": "ramses",
     "images": ["/images/RAMSES/1.jpg", "/images/RAMSES/2.jpg", "/images/RAMSES/3.jpg", "/images/RAMSES/4.jpg", "/images/RAMSES/5.jpg", "/images/RAMSES/6.jpg", "/images/RAMSES/7.jpg", "/images/RAMSES/8.jpg", "/images/RAMSES/9.jpg"],
@@ -216,6 +335,17 @@
     "sizes": [
       {"size": "90 x 90 x 32", "type": "Coffee Table"},
       {"size": "40 x 40 x 38", "type": "Side Table"}
+    ]
+  },
+  {
+    "name": "ROMA",
+    "slug": "roma",
+    "images": ["/images/ROMA ZIGON/1.jpg", "/images/ROMA ZIGON/2.jpg", "/images/ROMA ZIGON/3.jpg", "/images/ROMA ZIGON/4.jpg"],
+    "description": "Elegant design with a touch of classic sophistication.",
+    "sizes": [
+      {"size": "43 x 43 x 47", "type": "Nesting Table"},
+      {"size": "43 x 43 x 52", "type": "Nesting Table"},
+      {"size": "43 x 43 x 57", "type": "Nesting Table"}
     ]
   },
   {
@@ -237,6 +367,17 @@
     "sizes": [
       {"size": "95 x 95 x 36", "type": "Coffee Table"},
       {"size": "65 x 65 x 30", "type": "Side Table"}
+    ]
+  },
+  {
+    "name": "SOFYA",
+    "slug": "sofya",
+    "images": ["/images/SOFYA ZIGON/1.jpg", "/images/SOFYA ZIGON/2.jpg", "/images/SOFYA ZIGON/3.jpg", "/images/SOFYA ZIGON/4.jpg", "/images/SOFYA ZIGON/5.jpg", "/images/SOFYA ZIGON/6.jpg"],
+    "description": "Modern industrial style with bold wooden elements.",
+    "sizes": [
+      {"size": "40 x 40 x 47", "type": "Nesting Table"},
+      {"size": "40 x 40 x 52", "type": "Nesting Table"},
+      {"size": "40 x 30 x 57", "type": "Nesting Table"}
     ]
   },
   {

@@ -107,11 +107,10 @@ export default function Contact() {
                         <p>{t('address_section.title')}:</p>
                         <div className="mb-4">
                             <a target="_blank"
-                                href="https://www.google.com/maps/place/Mahmudiye,+%C3%96zlem+Sk.+No:3,+16400+%C4%B0neg%C3%B6l%2FBursa/@40.0761209,29.5244964,17z/data=!3m1!4b1!4m6!3m5!1s0x14cbc9423c1c73e5:0xf16c89d01e4efd5a!8m2!3d40.0761209!4d29.5270767!16s%2Fg%2F11cscmw76q?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D"
-                                className="text-sm text-logolight-700 mb-2">Mahmudiye Mahallesi, Özlem Sokak No:3, Inegol 16400</a>
+                                href="https://maps.app.goo.gl/1KW2XNC5oGetiVxA9"
+                                className="text-sm text-logolight-700 mb-2">Mahmudiye, Karaağaç Cd. No:10, 16400 İnegöl/Bursa</a>
                         </div>
-                        <iframe
-                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Mahmudiye%20Mahallesi,%20%C3%96zlem%20Sokak%20No:3,%20Inegol%2016400+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15387.037571947993!2d29.520648104236127!3d40.07150848822973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cbc93b45063f63%3A0x69519e2de09389c7!2sMonteri%20Prime%20Living!5e0!3m2!1str!2str!4v1774312750780!5m2!1str!2str" width="600"
                             allowFullScreen=""
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"

@@ -4,6 +4,10 @@
         "name": "ASOS"
     },
     {
+        "img": "BLOK SEHPA/1.jpg",
+        "name": "BLOK"
+    },
+    {
         "img": "BOHO SEHPA SET/8.JPG",
         "name": "BOHO"
     },
@@ -16,6 +20,18 @@
         "name": "COLORIUM"
     },
     {
+        "img": "CORNER YAN SEHPA SET/1.jpg",
+        "name": "CORNER"
+    },
+    {
+        "img": "ECLIPSE/1.jpg",
+        "name": "ECLIPSE"
+    },
+    {
+        "img": "EPICURE/1.jpg",
+        "name": "EPICURE"
+    },
+    {
         "img": "EXCOTİC SEHPA SET/6.jpeg",
         "name": "EXCOTIC"
     },
@@ -26,6 +42,10 @@
     {
         "img": "JUPITER/1.jpg",
         "name": "JUPITER"
+    },
+    {
+        "img": "LINEA SEHPA/1.jpg",
+        "name": "LINEA"
     },
     {
         "img": "LOTUS SEHPA BOYALI/1.jpg",
@@ -48,12 +68,20 @@
         "name": "LUNA V2"
     },
     {
+        "img": "MADRID ZIGON/1.jpg",
+        "name": "MADRID"
+    },
+    {
         "img": "MATRİX/7.JPG",
         "name": "MATRIX V1"
     },
     {
         "img": "MATRIX BOYALI/6.JPG",
         "name": "MATRIX V2"
+    },
+    {
+        "img": "MILAN/1.png",
+        "name": "MILAN"
     },
     {
         "img": "MİLANO/6.JPG",
@@ -64,16 +92,36 @@
         "name": "MONO"
     },
     {
+        "img": "ORBTY SEHPA/1.jpg",
+        "name": "ORBTY"
+    },
+    {
+        "img": "ORION SEHPA SET/1.jpg",
+        "name": "ORION"
+    },
+    {
         "img": "OSLO/10.JPG",
         "name": "OSLO"
+    },
+    {
+        "img": "PARIS/1.JPG",
+        "name": "PARIS"
     },
     {
         "img": "PIETRA SEHPA SETİ/15.jpg",
         "name": "PIETRA"
     },
     {
+        "img": "PIETRA AHSAP SET/1.jpg",
+        "name": "PIETRA WOOD"
+    },
+    {
         "img": "RAMSES/1.jpg",
         "name": "RAMSES"
+    },
+    {
+        "img": "ROMA ZIGON/1.jpg",
+        "name": "ROMA"
     },
     {
         "img": "ROYAL/3.JPG",
@@ -82,6 +130,10 @@
     {
         "img": "TOKYO SEHPA/1.jpg",
         "name": "TOKYO"
+    },
+    {
+        "img": "SOFYA ZIGON/1.jpg",
+        "name": "SOFYA"
     },
     {
         "img": "TRAVE/8.JPG",
