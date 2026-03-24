@@ -90,10 +90,10 @@ export default function ProductCard({ img, name }) {
       <div
         className="absolute top-0 left-0 w-full px-6 py-5 transition-all duration-500 group-hover:-translate-y-full group-hover:opacity-0"
         style={{
-          background: 'linear-gradient(to bottom, rgba(0,0,0,.75) 0%, rgba(0,0,0,0) 95%)'
+          // background: 'linear-gradient(to bottom, rgba(0,0,0,.75) 0%, rgba(0,0,0,0) 95%)'
         }}
       >
-        <h2 className="text-2xl font-semibold text-white drop-shadow-logo drop-shadow-sm">{name}</h2>
+        <h2 className="text-2xl font-semibold text-logolight-700 drop-shadow-logolight-100 drop-shadow-sm">{name}</h2>
       </div>
     </div>
   );
